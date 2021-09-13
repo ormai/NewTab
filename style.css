@@ -1,3 +1,7 @@
+body {
+	background-color: #2E3440;
+}
+
 @font-face {
     font-family: "Victor Mono";
     src: url("/home/mario/.local/share/fonts/fixed-width/VictorMono/VictorMono-Regular.ttf");
@@ -10,14 +14,33 @@
 	text-align: center;
 }
 
-.group {
+.news {
 	display: grid;
 	grid-template-columns: repeat(3, 150px); 
-	grid-template-rows: repeat(2, 100px); 
+	grid-template-rows: repeat(2, 100px);
+	gap: 20px; 
 }
 
+.bookmark {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	background-color: #3B4252;
+	border-radius: 10px;
+	transition: ;
+}
+
+.bookmark:hover {
+}
+
+
 .bookmark-content {
-	background-color: #FF00FF;
+	display: flex;
+	align-items: center;
+	color: #ECEFF4;
+	font-family: "Victor Mono Medium";
+	font-size: 18px;
 }
 
 #ansa {
@@ -35,17 +58,20 @@
 	grid-column-end: 4;
 }
 
+#monkeytype {
+	grid-column-start 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
 .bookmark {
 	
 }
 
-body {
-	background-color: #2E3440;
-}
 
-
-section {
-	position: absolute;
-	left: 30%;
-	display: grid;
+#bookmarks-main {
+	width: 100%;
+	display: flex;
+	justify-content: center; 
 }
