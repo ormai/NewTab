@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Victor Mono";
+    src: url("/home/mario/.local/share/fonts/fixed-width/VictorMono/VictorMono-Regular.ttf");
+}
+
+.greeting {
+	font-size: 20px;
+	font-family: "Victor Mono";
+	color: #ECEFF4;
+	text-align: center;
+}
+
+.group {
+	display: grid;
+	grid-template-columns: repeat(3, 150px); 
+	grid-template-rows: repeat(2, 100px); 
+}
+
+.bookmark-content {
+	background-color: #FF00FF;
+}
+
+#ansa {
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+#sole24 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+#youtube {
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+
+.bookmark {
+	
+}
+
+body {
+	background-color: #2E3440;
+}
+
+
+section {
+	position: absolute;
+	left: 30%;
+	display: grid;
+}
