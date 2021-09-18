@@ -1,24 +1,129 @@
-body {
-	background-color: #2E3440;
-}
-
 @font-face {
     font-family: "Victor Mono";
     src: url("/home/mario/.local/share/fonts/fixed-width/VictorMono/VictorMono-Regular.ttf");
 }
 
-.greeting {
-	font-size: 20px;
-	font-family: "Victor Mono";
-	color: #ECEFF4;
-	text-align: center;
+:root {
+  --background: #2E3440; /* nord0 */
+  --bg-element: #3B4252; /* nord1 */
+  --bg-undefined: #434C5E; /* nord2 */
+  --bg-element-hover: #4C566A; /* nord3 */
+  --color4: #D8DEE9; /* nord4 */
+  --color5: #E5E9F0; /* nord5 */
+  --text: #ECEFF4; /* nord6 */
+  --border-hover: #8FBCBB; /* nord7 */
+  --color8: #88C0D0; /* nord8 */
+  --color9: #81A1C1; /* nord9 */
+  --bordinactive: #5E81AC; /* nord10 */
+  --color11: #BF616A; /* nord11 */
+  --color12: #D08770; /* nord12 */
+  --color13: #EBCB8B; /* nord13 */
+  --color14: #A3BE8C; /* nord14 */
+  --accent: #B48EAD; /* nord15 */
+  --bordrad: 5px;
+  --bordsize: 1px;
 }
 
-.news {
-	display: grid;
-	grid-template-columns: repeat(3, 150px); 
-	grid-template-rows: repeat(2, 100px);
-	gap: 20px; 
+html {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	background-color: var(--background);
+	overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+	display: flex;
+	justify-content: center;
+  align-items: center;
+}
+
+#tiles {
+  width: 50%;
+  height: 70%;
+  display: grid;
+	grid-template-columns: repeat(6, 120px); 
+	grid-template-rows: repeat(5, 100px);
+	gap: 12px; 
+  justify-content: center;
+  align-content: center;
+}
+
+#google {
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+  display: grid;
+  grid-template-columns: repeat(2, 54px);
+  grid-template-rows: repeat(2, 44px);
+  gap: 12px;
+}
+
+#google-second {
+  grid-column: 5 / 6;
+  grid-row: 3 / 4;
+  display: grid;
+  grid-template-columns: repeat(2, 54px);
+  grid-template-rows: repeat(2, 44px);
+  gap: 12px;
+}
+
+#google-third {
+  grid-column: 4 / 5;
+  grid-row: 4 / 5;
+  display: grid;
+  grid-template-columns: repeat(2, 54px);
+  grid-template-rows: repeat(2, 44px);
+  gap: 12px;
+}
+
+#youtube {
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+}
+
+.google-tile {
+	display: flex;
+	justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-element-hover);
+	border-radius: var(--bordrad);
+	border-style: solid;
+	border-color: var(--bordinactive);
+	border-width: var(--bordsize);
+}
+
+#monkeytype {
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+}
+
+#reddit {
+	grid-column: 3 / 4;
+	grid-row: 1 / 2;
+}
+
+.mini-bookmark {
+	display: flex;
+	justify-content: center;
+  align-items: center;
+	width: 100%;
+	height: 100%;
+	transition: transform 0.2s;
+	background: #3B4252;
+	border-radius: var(--bordrad);
+	border-style: solid;
+	border-color: #5E81AC;
+	border-width: var(--bordsize);
+}
+
+.mini-bookmark:hover {
+	transform: scale(1.18);
+	background: var(--bg-element-hover);
+	border-color: var(--border-hover);
 }
 
 .bookmark {
@@ -26,16 +131,21 @@ body {
 	justify-content: center;
 	width: 100%;
 	height: 100%;
-	background-color: #3B4252;
-	border-radius: 10px;
-	transition: ;
+	transition: transform 0.2s;
+	background: #3B4252;
+	border-radius: var(--bordrad);
+	border-style: solid;
+	border-color: #5E81AC;
+	border-width: var(--bordsize);
 }
 
 .bookmark:hover {
+	transform: scale(1.06);
+	background: var(--bg-element-hover);
+	border-color: #88C0D0;
 }
 
-
-.bookmark-content {
+.tile-image {
 	display: flex;
 	align-items: center;
 	color: #ECEFF4;
@@ -43,35 +153,4 @@ body {
 	font-size: 18px;
 }
 
-#ansa {
-	grid-column-start: 1;
-	grid-column-end: 2;
-}
-
-#sole24 {
-	grid-column-start: 2;
-	grid-column-end: 3;
-}
-
-#youtube {
-	grid-column-start: 3;
-	grid-column-end: 4;
-}
-
-#monkeytype {
-	grid-column-start 1;
-	grid-column-end: 2;
-	grid-row-start: 2;
-	grid-row-end: 3;
-}
-
-.bookmark {
-	
-}
-
-
-#bookmarks-main {
-	width: 100%;
-	display: flex;
-	justify-content: center; 
-}
+@media (min-width: 1200px) {}
