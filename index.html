@@ -5,88 +5,143 @@
 		<meta name="viewport" content="width=device-width">
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-    <script src="#">
-    </script>
+    <script type="text/javascript" src="clock.js"></script>
   </head>
 
   <body>
 		<div id="tiles">
-      <div id="google">
+      <div id="quote">
+        <p></p>
+      </div>
+      <div id="tradingview">
+      </div>
+      <div id="zerbino">
+        <p id="clock"><p>
+      </div>
+      <div class="google-tile" id="google">
 			  <a class="mini-bookmark" id="youtube" href="https://www.youtube.com/">
 				  <div class="tile-image">
-					  <img width="45px" height="auto" src="https://image.flaticon.com/icons/png/512/1384/1384060.png">
+					  <img class="google-img" width="45px" height="auto" src="https://image.flaticon.com/icons/png/512/1384/1384060.png">
 				  </div>
 			  </a>
         <a class="mini-bookmark" id="gmail" href="https://mail.google.com/">
           <div class="tile-image">
-            <img width="45px" height="auto" src="icons/gmail.png">
+            <img class="google-img" width="45px" height="auto" src="icons/gmail.png">
           </div>
         </a>
         <a class="mini-bookmark" id="translate" href="https://translate.google.com/">
           <div class="tile-image">
-            <img width="37px" height="auto" src="icons/translate.png">
+            <img class="google-img" width="37px" height="auto" src="icons/translate.png">
           </div>
         </a>
         <a class="mini-bookmark" id="maps" href="https://www.google.com/maps/">
           <div class="tile-image">
-            <img width="38px" height="auto" src="icons/maps.png">
+            <img class="google-img" width="38px" height="auto" src="icons/maps.png">
           </div>
         </a>
       </div>
-      <div id="google-second">
+      <div class="google-tile" id="google-second">
 			  <a class="mini-bookmark" id="photos" href="https://photos.google.com/">
 				  <div class="tile-image">
-					  <img width="38px" height="auto" src="icons/photos.png">
+					  <img class="google-img" width="38px" height="auto" src="icons/photos.png">
 				  </div>
 			  </a>
         <a class="mini-bookmark" id="meet" href="https://calendar.google.com/">
           <div class="tile-image">
-            <img width="45px" height="auto" src="icons/calendar.png">
+            <img class="google-img" width="45px" height="auto" src="icons/calendar.png">
           </div>
         </a>
-        <a class="mini-bookmark" id="classroom" href="https://classroom.google.com/">
+        <a class="mini-bookmark" id="classroom" href="https://classroom.google.com/u/1/h">
           <div class="tile-image">
-            <img width="45px" height="auto" src="icons/classroom.png">
+            <img class="google-img" width="45px" height="auto" src="icons/classroom.png">
           </div>
         </a>
         <a class="mini-bookmark" id="account" href="https://myaccount.google.com/">
           <div class="tile-image">
-            <img width="30px" height="auto" src="icons/account.png">
+            <img class="google-img" width="30px" height="auto" src="icons/account.png">
           </div>
         </a>
       </div>
-      <div id="google-third">
+      <div class="google-tile" id="google-third">
 			  <a class="mini-bookmark" id="drive" href="https://drive.google.com/">
 				  <div class="tile-image">
-					  <img width="42px" height="auto" src="icons/drive.png">
+					  <img class="google-img" width="42px" height="auto" src="icons/drive.png">
 				  </div>
 			  </a>
         <a class="mini-bookmark" id="docs" href="https://docs.google.com/">
           <div class="tile-image">
-            <img width="37px" height="auto" src="icons/docs.png">
+            <img class="google-img" width="37px" height="auto" src="icons/docs.png">
           </div>
         </a>
         <a class="mini-bookmark" id="slides" href="https://docs.google.com/presentation/">
           <div class="tile-image">
-            <img width="42px" height="auto" src="icons/slides.png">
+            <img class="google-img" width="42px" height="auto" src="icons/slides.png">
           </div>
         </a>
         <a class="mini-bookmark" id="sheets" href="https://docs.google.com/spreadsheets/">
           <div class="tile-image">
-            <img width="42" height="auto" src="icons/sheets.png">
+            <img class="google-img" width="42" height="auto" src="icons/sheets.png">
           </div>
         </a>
       </div>
 			<a class="bookmark" id="reddit" href="https://www.reddit.com"/>
 				<div class="tile-image">
-					<img width="70px" height="auto" src="icons/reddit.png">
+					<img class="big-img" width="70px" height="auto" src="icons/reddit.png">
 				</div>
 			</a>
 			<a class="bookmark" id="monkeytype" href="https://monkeytype.com/">
 				<div class="tile-image">
-					<img width="90px" height="auto" src="icons/monkeytype.png">
-				</div>
+					<img class="big-img" width="90px" height="auto" src="icons/monkeytype.png">
+        </div>
 			</a>
+			<a class="bookmark" id="twitch" href="https://www.twitch.tv/">
+				<div class="tile-image">
+					<img class="big-img" width="90px" height="auto" src="icons/twitch.png">
+        </div>
+			</a>
+			<a class="bookmark" id="github" href="https://github.com/">
+				<div class="tile-image">
+					<img class="big-img" width="90px" height="auto" src="icons/github.png">
+        </div>
+			</a>
+			<a class="bookmark" id="freecodecamp" href="https://www.freecodecamp.org/learn/">
+				<div class="tile-image">
+					<img class="big-img" width="90px" height="auto" src="icons/freecodecamp.png">
+        </div>
+			</a>
+			<a class="bookmark" id="codepen" href="https://codepen.io/">
+				<div class="tile-image">
+					<img class="big-img" width="90px" height="auto" src="icons/codepen.png">
+        </div>
+			</a>
+			<a class="bookmark" id="arch" href="https://archlinux.org/">
+				<div class="tile-image">
+					<img class="big-img" width="90px" height="auto" src="icons/arch.png">
+        </div>
+			</a>
+			<a class="bookmark" id="devdocs" href="https://devdocs.io/">
+				<div class="tile-image">
+					<img class="big-img" width="80px" height="auto" src="icons/code.png">
+        </div>
+			</a>
+			<a class="bookmark" id="amazon" href="https://amazon.it/">
+				<div class="tile-image">
+					<img class="big-img" width="80px" height="auto" src="icons/amazon.png">
+        </div>
+			</a>
+			<a class="bookmark" id="imbd" href="https://www.imdb.com/">
+				<div class="tile-image">
+					<img class="big-img" width="80px" height="auto" src="icons/imbd.png">
+        </div>
+			</a>
+      <div class="list" id="news">
+        <ul>
+          <li><a class="entry" href="https://www.nytimes.com/">NY Times</a></li>
+          <li><a class="entry" href="https://ansa.it">Ansa</a></li>
+          <li><a class="entry" href="https://www.ilsole24ore.com/">Il sole 24 ore</a></li>
+          <li><a class="entry" href="https://www.repubblica.it/">La Repubblica</a></li>
+        </ul>
+      </div>
 		</div>
   </body>
 </html>
