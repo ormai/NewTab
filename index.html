@@ -11,12 +11,11 @@
   <body>
 		<div id="tiles">
       <div id="quote">
-        <p></p>
+        <p id="quote-text">Mai fidarsi di un computer che non è possibile gettare dalla finestra.<br></p><p id="author">- Steve Wozniak</p>
       </div>
-      <div id="tradingview">
-      </div>
-      <div id="zerbino">
-        <p id="clock"><p>
+      <div class="bigtile" id="market">
+        <iframe scrolling="no" allowtransparency="true" style="box-sizing: border-box; height: calc(94px); width: 100%;" src="https://s.tradingview.com/embed-widget/single-quote/?locale=en#%7B%22symbol%22%3A%22FX%3AEURUSD%22%2C%22width%22%3A%22100%25%22%2C%22colorTheme%22%3A%22dark%22%2C%22isTransparent%22%3Atrue%2C%22height%22%3A126%2C%22utm_source%22%3A%22%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22single-quote%22%7D" frameborder="0"></iframe>
+        <iframe scrolling="no" allowtransparency="true" style="box-sizing: border-box; height: calc(94px); width: 100%;" src="https://s.tradingview.com/embed-widget/single-quote/?locale=en#%7B%22symbol%22%3A%22OANDA%3AEURGBP%22%2C%22width%22%3A%22100%25%22%2C%22colorTheme%22%3A%22dark%22%2C%22isTransparent%22%3Atrue%2C%22height%22%3A126%2C%22utm_source%22%3A%22%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22single-quote%22%7D" frameborder="0"></iframe>
       </div>
       <div class="google-tile" id="google">
 			  <a class="mini-bookmark" id="youtube" href="https://www.youtube.com/">
@@ -54,7 +53,7 @@
         <a class="mini-bookmark" id="classroom" href="https://classroom.google.com/u/1/h">
           <div class="tile-image">
             <img class="google-img" width="45px" height="auto" src="icons/classroom.png">
-          </div>
+         </div>
         </a>
         <a class="mini-bookmark" id="account" href="https://myaccount.google.com/">
           <div class="tile-image">
@@ -134,13 +133,27 @@
 					<img class="big-img" width="80px" height="auto" src="icons/imbd.png">
         </div>
 			</a>
-      <div class="list" id="news">
+			<a class="bookmark" id="chess-com" href="https://www.chess.com/home">
+				<div class="tile-image">
+					<img class="big-img" width="70px" height="auto" src="icons/chess.png">
+        </div>
+			</a>
+			<a class="bookmark" id="lichess-org" href="https://lichess.org/">
+				<div class="tile-image">
+					<img class="big-img" width="70px" height="auto" src="icons/lichess.png">
+        </div>
+			<a class="bookmark" id="gitlab" href="https://gitlab.com/">
+				<div class="tile-image">
+					<img class="big-img" width="70px" height="auto" src="icons/gitlab.png">
+        </div>
+			</a>
+      <div class="list bigtile" id="news">
         <ul>
-          <li><a class="entry" href="https://www.lastampa.it/">LA STAMPA</a></li>
+          <li><a class="entry" href="https://www.lastampa.it/">La Stampa</a></li>
           <li><a class="entry" href="https://www.nytimes.com/">NY Times</a></li>
           <li><a class="entry" href="https://ansa.it">Ansa</a></li>
-          <li><a class="entry" href="https://www.ilsole24ore.com/">Il sole 24 ore</a></li>
-          <li><a class="entry" href="https://www.repubblica.it/">La Repubblica</a></li>
+          <li><a class="entry" href="https://www.ilsole24ore.com/">Sole 24h</a></li>
+          <li><a class="entry" href="https://www.repubblica.it/">Repubblica</a></li>
         </ul>
       </div>
 		</div>
