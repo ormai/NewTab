@@ -1,3 +1,12 @@
+/* Do not make possible to select text and images */
+* {
+   user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
 :root {
   --background: #2E3440; /* nord0 */
   --bg-element: #3B4252; /* nord1 */
