@@ -1,6 +1,6 @@
 NewTab is a customized browser starting page.
 
-[zombieFox](https://github.com/zombieFox)'s [nightTab](https://github.com/zombieFox/nightTab) browser extension inspired me to make my very own browser starting page.
+[zombieFox](https://github.com/zombieFox)'s [nightTab](https://github.com/zombieFox/nightTab) browser extension inspired me to make my very own starting page for every browser I will ever use.
 
 # Setup
 
@@ -25,15 +25,17 @@ In `/usr/lib/librewolf/librewolf.cfg` add the following:
 var {classes:Cc,interfaces:Ci,utils:Cu} = Components;
   try {
     Cu.import("resource:///modules/AboutNewTab.jsm");
-    var newTabURL = "file:///home/mario/dev/NewTab/index.html";
+    var newTabURL = "file:///home/[user]/[some-directory]/[NewTab-directory]/index.html";
     AboutNewTab.newTabURL = newTabURL;
   } catch(e){Cu.reportError(e);} // report errors in the Browser Console
 ```
+Replace `file:///home/[user]/[some-directory]/[NewTab-directory]/index.html` with the path to your html file.
 
+For example mine is `file:///home/mario/dev/NewTab/index.html`.
 
 
 ### Chromium
-From the broswer [extensions page](chrome//extensions), turn on the **Developer mode**; a bunch of new buttons will pop out. click **Load unpacked** and select the `NewTab` directory. 
+From the broswer extensions page turn on the **Developer mode**. Then click **Load unpacked** and select the extension directory, in this case `NewTab`. 
 
 # Things to do
 
