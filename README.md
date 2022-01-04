@@ -5,7 +5,7 @@ NewTab is a customized browser starting page.
 # Setup
 
 ### Firefox 
-To use a local html file as the firefox `new tab` page, follow this [article](https://peterries.net/blog/firefox-set-file-as-home/).
+To use a local html file as the firefox NewTab page, follow [this article](https://peterries.net/blog/firefox-set-file-as-home/).
 
 ### LibreWolf
 `/usr/lib/librewolf/defaults/pref/local-settings.js` should look like this:
