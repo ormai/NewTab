@@ -4,11 +4,14 @@ NewTab is a customized browser starting page.
 
 # Setup
 
-### Firefox based 
+### Firefox 
 To use a local html file as the firefox `new tab` page, follow this [article](https://peterries.net/blog/firefox-set-file-as-home/).
 
-### Chromium based
-From the broswer [extensions page](chrome://extensions), turn on the **Developer mode**; a bunch of new buttons will pop out. click **Load unpacked** and select the `NewTab` directory. 
+### LibreWolf
+
+
+### Chromium
+From the broswer [extensions page](chrome//extensions), turn on the **Developer mode**; a bunch of new buttons will pop out. click **Load unpacked** and select the `NewTab` directory. 
 
 # Things to do
 
