@@ -178,11 +178,6 @@ li {
   grid-row: 5 / 6;
 }
 
-#chess-com {
-  grid-column: 3 / 4;
-  grid-row: 5 / 6;
-}
-
 #lichess-org {
   grid-column: 6 / 7;
   grid-row: 5 / 6;
@@ -191,6 +186,11 @@ li {
 #gitlab {
   grid-column: 6 / 7;
   grid-row: 4 / 5;
+}
+
+#syncthing {
+  grid-column: 5 / 6;
+  grid-row: 5 / 6;
 }
 
 .mini-bookmark {

@@ -3,15 +3,16 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
-    <title>Home</title>
+    <title>NewTab</title>
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-    <script type="text/javascript" src="#"></script>
+    <script type="module" src="random-quote.js"></script>
   </head>
 
   <body>
 		<div id="tiles">
       <div id="quote">
-        <p id="quote-text">Mai fidarsi di un computer che non è possibile gettare dalla finestra.<br></p><p id="author">- Steve Wozniak</p>
+        <p id="quote-text"><br></p>
+        <p id="author-text"></p>
       </div>
       <div class="bigtile" id="market">
         <iframe scrolling="no" allowtransparency="true" style="box-sizing: border-box; height: calc(94px); width: 100%;" src="https://s.tradingview.com/embed-widget/single-quote/?locale=en#%7B%22symbol%22%3A%22FX%3AEURUSD%22%2C%22width%22%3A%22100%25%22%2C%22colorTheme%22%3A%22dark%22%2C%22isTransparent%22%3Atrue%2C%22height%22%3A126%2C%22utm_source%22%3A%22%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22single-quote%22%7D" frameborder="0"></iframe>
@@ -120,7 +121,7 @@
 			</a>
 			<a class="bookmark" id="devdocs" href="https://devdocs.io/">
 				<div class="tile-image">
-					<img class="big-img" width="80px" height="auto" src="icons/code.png">
+					<img class="big-img" width="80px" height="auto" src="icons/devdocs.png">
         </div>
 			</a>
 			<a class="bookmark" id="amazon" href="https://amazon.it/">
@@ -133,11 +134,6 @@
 					<img class="big-img" width="80px" height="auto" src="icons/imbd.png">
         </div>
 			</a>
-			<a class="bookmark" id="chess-com" href="https://www.chess.com/home">
-				<div class="tile-image">
-					<img class="big-img" width="70px" height="auto" src="icons/chess.png">
-        </div>
-			</a>
 			<a class="bookmark" id="lichess-org" href="https://lichess.org/">
 				<div class="tile-image">
 					<img class="big-img" width="70px" height="auto" src="icons/lichess.png">
@@ -146,6 +142,11 @@
 				<div class="tile-image">
 					<img class="big-img" width="70px" height="auto" src="icons/gitlab.png">
         </div>
+			</a>
+			<a class="bookmark" id="syncthing" href="http://127.0.0.1:8384/"/>
+				<div class="tile-image">
+					<img class="big-img" width="70px" height="auto" src="icons/syncthing.png">
+				</div>
 			</a>
       <div class="list bigtile" id="news">
         <ul>
