@@ -5,14 +5,14 @@
 		<meta name="viewport" content="width=device-width">
     <title>NewTab</title>
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-    <script type="module" src="random-quote.js"></script>
   </head>
 
   <body>
 		<div id="tiles">
-      <div id="quote">
-        <p id="quote-text"><br></p>
-        <p id="author-text"></p>
+      <div id="quote-tile">
+        <p id="quote-text" class="quote"></p>
+        <br>
+        <p class="quote">- <span id="quote-author"></span></p>
       </div>
       <div class="bigtile" id="market">
         <iframe scrolling="no" allowtransparency="true" style="box-sizing: border-box; height: calc(94px); width: 100%;" src="https://s.tradingview.com/embed-widget/single-quote/?locale=en#%7B%22symbol%22%3A%22FX%3AEURUSD%22%2C%22width%22%3A%22100%25%22%2C%22colorTheme%22%3A%22dark%22%2C%22isTransparent%22%3Atrue%2C%22height%22%3A126%2C%22utm_source%22%3A%22%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22single-quote%22%7D" frameborder="0"></iframe>
@@ -157,6 +157,7 @@
           <li><a class="entry" href="https://www.repubblica.it/">Repubblica</a></li>
         </ul>
       </div>
-		</div>
+    </div>
+    <script type="text/javascript" src="random-quote.js"></script>
   </body>
 </html>
