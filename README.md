@@ -1,6 +1,6 @@
-NewTab is a customized browser starting page.
+![](screenshots/NewTab-v1.0.png)
 
-[zombieFox](https://github.com/zombieFox)'s [nightTab](https://github.com/zombieFox/nightTab) browser extension inspired me to make my very own starting page for every browser I will ever use.
+[zombieFox](https://github.com/zombieFox)'s [nightTab](https://github.com/zombieFox/nightTab) browser extension inspired me to make my very own new tab page.
 
 # Setup
 
