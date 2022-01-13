@@ -96,7 +96,7 @@ body {
 
 .entry {
   font-family: RobotoMono, monospace;
-  margin: 0 5px;
+  margin: 0 15px;
   font-size: 1rem;
 }
 
@@ -104,6 +104,14 @@ body {
   color: var(--color11);
 }
 
+/* Reading tile */
+#reading {
+  grid-column: 3 / 5;
+  grid-row: 5 / 6;
+}
+  
+
+/* Style list elements */
 ul {
   list-style-type: none;
   padding-inline-start: 0;
