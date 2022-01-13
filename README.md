@@ -35,4 +35,4 @@ For example mine is `file:///home/mario/dev/NewTab/src/index.html`.
 
 
 ### Chromium
-From the broswer extensions page turn on the **Developer mode**. Then click **Load unpacked** and select the extension directory, in this case `NewTab`. 
+From the broswer extensions page turn on the **Developer mode**. Then click **Load unpacked** and select the extension directory. 
