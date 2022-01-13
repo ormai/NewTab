@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+    <title>NewTab</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  </head>
+
+  <body>
+		<div id="tiles">
+      <div id="quote-tile">
+        <p id="quote-text" class="quote"></p>
+        <br>
+        <p class="quote">- <span id="quote-author"></span></p>
+      </div>
+      <div class="bigtile" id="market">
+        <iframe scrolling="no" allowtransparency="true" style="box-sizing: border-box; height: calc(94px); width: 100%;" src="https://s.tradingview.com/embed-widget/single-quote/?locale=en#%7B%22symbol%22%3A%22FX%3AEURUSD%22%2C%22width%22%3A%22100%25%22%2C%22colorTheme%22%3A%22dark%22%2C%22isTransparent%22%3Atrue%2C%22height%22%3A126%2C%22utm_source%22%3A%22%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22single-quote%22%7D" frameborder="0"></iframe>
+        <iframe scrolling="no" allowtransparency="true" style="box-sizing: border-box; height: calc(94px); width: 100%;" src="https://s.tradingview.com/embed-widget/single-quote/?locale=en#%7B%22symbol%22%3A%22OANDA%3AEURGBP%22%2C%22width%22%3A%22100%25%22%2C%22colorTheme%22%3A%22dark%22%2C%22isTransparent%22%3Atrue%2C%22height%22%3A126%2C%22utm_source%22%3A%22%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22single-quote%22%7D" frameborder="0"></iframe>
+      </div>
+      <div class="google-tile" id="google">
+			  <a class="mini-bookmark" id="youtube" href="https://www.youtube.com/">
+				  <div class="tile-image">
+					  <img class="google-img" width="45px" height="auto" src="icons/youtube.png">
+				  </div>
+			  </a>
+        <a class="mini-bookmark" id="gmail" href="https://mail.google.com/">
+          <div class="tile-image">
+            <img class="google-img" width="45px" height="auto" src="icons/gmail.png">
+          </div>
+        </a>
+        <a class="mini-bookmark" id="translate" href="https://translate.google.com/">
+          <div class="tile-image">
+            <img class="google-img" width="37px" height="auto" src="icons/translate.png">
+          </div>
+        </a>
+        <a class="mini-bookmark" id="maps" href="https://www.google.com/maps/">
+          <div class="tile-image">
+            <img class="google-img" width="38px" height="auto" src="icons/maps.png">
+          </div>
+        </a>
+      </div>
+      <div class="google-tile" id="google-second">
+			  <a class="mini-bookmark" id="photos" href="https://photos.google.com/">
+				  <div class="tile-image">
+					  <img class="google-img" width="38px" height="auto" src="icons/photos.png">
+				  </div>
+			  </a>
+        <a class="mini-bookmark" id="meet" href="https://calendar.google.com/">
+          <div class="tile-image">
+            <img class="google-img" width="45px" height="auto" src="icons/calendar.png">
+          </div>
+        </a>
+        <a class="mini-bookmark" id="classroom" href="https://classroom.google.com/u/1/h">
+          <div class="tile-image">
+            <img class="google-img" width="45px" height="auto" src="icons/classroom.png">
+         </div>
+        </a>
+        <a class="mini-bookmark" id="account" href="https://myaccount.google.com/">
+          <div class="tile-image">
+            <img class="google-img" width="30px" height="auto" src="icons/account.png">
+          </div>
+        </a>
+      </div>
+      <div class="google-tile" id="google-third">
+			  <a class="mini-bookmark" id="drive" href="https://drive.google.com/">
+				  <div class="tile-image">
+					  <img class="google-img" width="42px" height="auto" src="icons/drive.png">
+				  </div>
+			  </a>
+        <a class="mini-bookmark" id="docs" href="https://docs.google.com/">
+          <div class="tile-image">
+            <img class="google-img" width="37px" height="auto" src="icons/docs.png">
+          </div>
+        </a>
+        <a class="mini-bookmark" id="slides" href="https://docs.google.com/presentation/">
+          <div class="tile-image">
+            <img class="google-img" width="42px" height="auto" src="icons/slides.png">
+          </div>
+        </a>
+        <a class="mini-bookmark" id="sheets" href="https://docs.google.com/spreadsheets/">
+          <div class="tile-image">
+            <img class="google-img" width="42" height="auto" src="icons/sheets.png">
+          </div>
+        </a>
+      </div>
+			<a class="bookmark" id="reddit" href="https://www.reddit.com"/>
+				<div class="tile-image">
+					<img class="big-img" width="70px" height="auto" src="icons/reddit.png">
+				</div>
+			</a>
+			<a class="bookmark" id="monkeytype" href="https://monkeytype.com/">
+				<div class="tile-image">
+					<img class="big-img" width="90px" height="auto" src="icons/monkeytype.png">
+        </div>
+			</a>
+			<a class="bookmark" id="twitch" href="https://www.twitch.tv/">
+				<div class="tile-image">
+					<img class="big-img" width="90px" height="auto" src="icons/twitch.png">
+        </div>
+			</a>
+			<a class="bookmark" id="github" href="https://github.com/">
+				<div class="tile-image">
+					<img class="big-img" width="90px" height="auto" src="icons/github.png">
+        </div>
+			</a>
+			<a class="bookmark" id="freecodecamp" href="https://www.freecodecamp.org/learn/">
+				<div class="tile-image">
+					<img class="big-img" width="90px" height="auto" src="icons/freecodecamp.png">
+        </div>
+			</a>
+			<a class="bookmark" id="codepen" href="https://codepen.io/">
+				<div class="tile-image">
+					<img class="big-img" width="90px" height="auto" src="icons/codepen.png">
+        </div>
+			</a>
+			<a class="bookmark" id="arch" href="https://archlinux.org/">
+				<div class="tile-image">
+					<img class="big-img" width="90px" height="auto" src="icons/arch.png">
+        </div>
+			</a>
+			<a class="bookmark" id="devdocs" href="https://devdocs.io/">
+				<div class="tile-image">
+					<img class="big-img" width="80px" height="auto" src="icons/devdocs.png">
+        </div>
+			</a>
+			<a class="bookmark" id="amazon" href="https://amazon.it/">
+				<div class="tile-image">
+					<img class="big-img" width="80px" height="auto" src="icons/amazon.png">
+        </div>
+			</a>
+			<a class="bookmark" id="imbd" href="https://www.imdb.com/">
+				<div class="tile-image">
+					<img class="big-img" width="80px" height="auto" src="icons/imbd.png">
+        </div>
+			</a>
+			<a class="bookmark" id="lichess-org" href="https://lichess.org/">
+				<div class="tile-image">
+					<img class="big-img" width="70px" height="auto" src="icons/lichess.png">
+        </div>
+			<a class="bookmark" id="gitlab" href="https://gitlab.com/">
+				<div class="tile-image">
+					<img class="big-img" width="70px" height="auto" src="icons/gitlab.png">
+        </div>
+			</a>
+			<a class="bookmark" id="syncthing" href="http://127.0.0.1:8384/"/>
+				<div class="tile-image">
+					<img class="big-img" width="70px" height="auto" src="icons/syncthing.png">
+				</div>
+			</a>
+      <div id="news" class="list bigtile">
+        <ul>
+          <li><a class="entry" href="https://www.lastampa.it/">La Stampa</a></li>
+          <li><a class="entry" href="https://www.engadget.com/">engadget</a></li>
+          <li><a class="entry" href="https://ansa.it">Ansa</a></li>
+          <li><a class="entry" href="https://www.ilsole24ore.com/">Sole 24h</a></li>
+          <li><a class="entry" href="https://www.repubblica.it/">Repubblica</a></li>
+          <li><a class="entry" href="https://www.theverge.com/">The Verge</a></li>
+        </ul>
+      </div>
+      <div id="reading" class="bigtile">
+        <ul>
+          <li><a class="entry" href="https://phys.org/">phys.org</a></li>
+          <li><a class="entry" href="https://sapienjournal.org/">SJ</a></li>
+          <li><a class="entry" href="https://www.lesswrong.com/">LessWrong</a></li>
+        </ul>
+        <ul>
+          <li><a class="entry" href="https://thevaluable.dev/">TVD</a></li>
+          <li><a class="entry" href="https://family.sissiweb.it/Secret/REStart.aspx?Customer_ID=80004420784">Registro</a></li>
+          <li><a class="entry" href="https://www.linkedin.com/">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <script type="text/javascript" src="random-quote.js"></script>
+  </body>
+</html>
