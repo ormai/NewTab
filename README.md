@@ -31,16 +31,8 @@ var {classes:Cc,interfaces:Ci,utils:Cu} = Components;
 ```
 Replace `file:///home/[user]/[some-directory]/[NewTab-directory]/index.html` with the path to your html file.
 
-For example mine is `file:///home/mario/dev/NewTab/index.html`.
+For example mine is `file:///home/mario/dev/NewTab/src/index.html`.
 
 
 ### Chromium
 From the broswer extensions page turn on the **Developer mode**. Then click **Load unpacked** and select the extension directory, in this case `NewTab`. 
-
-# Things to do
-
-- [ ] Reduce the page loading time by:
-  - compressing the images;
-  - implementing [TradingView](https://www.tradingview.com/) widgets with the TradingView api;
-- [ ] in the future, the quote tile will display a random quote from a selection.
-- [ ] manually fix the misalignment of diffrent sized tiles.
