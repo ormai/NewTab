@@ -54,6 +54,14 @@ const quotes = [
   {
     "quote": "I miei giorni di scuola! Lo scorrere silenzioso della mia esistenza...",
     "author": "David Copperfield"
+  },
+  {
+    "quote": "It’s so easy to forget how much noise the Matrix pumps into your head until you unplug.",
+    "author": "Niobe"
+  },
+  {
+    "quote": "Andy Dufresne: I guess it comes down to a simple choice, really. Get busy living, or get busy dying.",
+    "author": "The Shawshank Redemption"
   }
 ];
 
