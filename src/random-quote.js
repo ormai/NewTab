@@ -4,6 +4,10 @@ const quotes = [
     "author": "Rick and Morty"
   },
   {
+    "quote": "<b>Rick</b>: Love is an expression of familiarity over time.",
+    "author": "Rick and Morty"
+  },
+  {
     "quote": "<b>Morty</b>: Everything hurts!<br><b>Rick</b>: That's because you're worthless!",
     "author": "Rick and Morty"
   },
