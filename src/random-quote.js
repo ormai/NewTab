@@ -1,5 +1,33 @@
 const quotes = [
   {
+    "quote": "<b>Rick</b>: Wubba Lubba Dub Dub!",
+    "author": "Rick and Morty"
+  },
+  {
+    "quote": "<b>Morty</b>: Everything hurts!<br><b>Rick</b>: That's because you're worthless!",
+    "author": "Rick and Morty"
+  },
+  {
+    "quote": "<b>Rick</b>: When Smart people get happy they stop recognising themselves.",
+    "author": "Rick and Morty"
+  },
+  {
+    "quote": "<b>Rick</b>: When you realise nothing matters, the universe is yours.",
+    "author": "Rick and Morty"
+  },
+  {
+    "quote": "<b>Rick</b>: Uncertainty is inherently unsustainable. Eventually, everything either is or isn't.",
+    "author": "Rick and Morty S2E1"
+  },
+  {
+    "quote": "<b>Rick</b>: Weddings are basically just funerals with cake.",
+    "author": "Rick and Morty S2E10"
+  },
+  {
+    "quote": "<b>Rick</b>: Listen Morty, I hate to break it to you, but what people calls \"love\" is just a chemical reaction that compels animals to breed.",
+    "author": "Rick and Morty S1E6"
+  },
+  {
     "quote": "You know the difference between us, Tom? Anyone could have been you, whereas I've always been anyone.",
     "author": "Agent Smith"
   },
@@ -60,8 +88,12 @@ const quotes = [
     "author": "Niobe"
   },
   {
-    "quote": "Andy Dufresne: I guess it comes down to a simple choice, really. Get busy living, or get busy dying.",
+    "quote": "<b>Andy Dufresne</b>: I guess it comes down to a simple choice, really. Get busy living, or get busy dying.",
     "author": "The Shawshank Redemption"
+  },
+  {
+    "quote": "Sed fugit interea fugit irreparabile tempus",
+    "author": "Publius Vergilius Maro"
   }
 ];
 
