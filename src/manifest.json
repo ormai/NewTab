@@ -1,7 +1,7 @@
 {
-	"name": "Home",
-	"description": "Customize the startup page via html, css and js",
-	"version": "1.0",
+	"name": "NewTab",
+	"description": "Custom startup page",
+	"version": "1.1",
 	"manifest_version": 2,
 	"chrome_url_overrides": {
   	"newtab": "index.html"
