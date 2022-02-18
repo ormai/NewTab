@@ -1,4 +1,4 @@
-![](screenshots/NewTab-v1.0.png)
+![](screenshots/NewTab-v1.1.png)
 
 [zombieFox](https://github.com/zombieFox)'s [nightTab](https://github.com/zombieFox/nightTab) browser extension inspired me to make my very own new tab page.
 
@@ -9,6 +9,7 @@ To use a local html file as the firefox NewTab page, follow [this article](https
 
 ### LibreWolf
 `/usr/lib/librewolf/defaults/pref/local-settings.js` should look like this:
+
 ```js
 //Specifies the .cfg filename (path cannot be changed)
 pref("general.config.filename", "librewolf.cfg");
@@ -20,6 +21,7 @@ pref("general.config.sandbox_enabled", false);
 ```
 
 In `/usr/lib/librewolf/librewolf.cfg` add the following:
+
 ```js
 // NewTab
 var {classes:Cc,interfaces:Ci,utils:Cu} = Components;
