@@ -27,11 +27,11 @@ In `/usr/lib/librewolf/librewolf.cfg` add the following:
 var {classes:Cc,interfaces:Ci,utils:Cu} = Components;
   try {
     Cu.import("resource:///modules/AboutNewTab.jsm");
-    var newTabURL = "file:///home/[user]/[some-directory]/[NewTab-directory]/index.html";
+    var newTabURL = "[PATH-TO-HTML-PAGE]";
     AboutNewTab.newTabURL = newTabURL;
   } catch(e){Cu.reportError(e);} // report errors in the Browser Console
 ```
-Replace `file:///home/[user]/[some-directory]/[NewTab-directory]/index.html` with the path to your html file.
+Replace `[PATH-TO-HTML-PAGE]` with the path to your html file.
 
 For example mine is `file:///home/mario/dev/NewTab/src/index.html`.
 
