@@ -5,36 +5,10 @@
 # Setup
 
 ### Firefox 
-To use a local html file as the firefox NewTab page, follow [this article](https://peterries.net/blog/firefox-set-file-as-home/).
+[This articlel](https://peterries.net/blog/firefox-set-file-as-home/) might still work.
 
 ### LibreWolf
-`/usr/lib/librewolf/defaults/pref/local-settings.js` should look like this:
-
-```js
-//Specifies the .cfg filename (path cannot be changed)
-pref("general.config.filename", "librewolf.cfg");
-
-//Allows .cfg file to be stored in plain text without obfuscation
-pref("general.config.obscure_value", 0);
-
-pref("general.config.sandbox_enabled", false);
-```
-
-In `/usr/lib/librewolf/librewolf.cfg` add the following:
-
-```js
-// NewTab
-var {classes:Cc,interfaces:Ci,utils:Cu} = Components;
-  try {
-    Cu.import("resource:///modules/AboutNewTab.jsm");
-    var newTabURL = "[PATH-TO-HTML-PAGE]";
-    AboutNewTab.newTabURL = newTabURL;
-  } catch(e){Cu.reportError(e);} // report errors in the Browser Console
-```
-Replace `[PATH-TO-HTML-PAGE]` with the path to your html file.
-
-For example mine is `file:///home/mario/dev/NewTab/src/index.html`.
-
+The procedure is similar to that of Firefox. [Here is an article](https://codetea.com/a-guide-to-make-librewolf-have-a-different-start-page-for-the-homepage-and-new-tabs/).
 
 ### Chromium
 From the broswer extensions page turn on the **Developer mode**. Then click **Load unpacked** and select the extension directory. 

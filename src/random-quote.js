@@ -16,6 +16,22 @@ const quotes = [
     "author": "Rick and Morty"
   },
   {
+    "quote": "WAR IS PEACE<br>FREEDOM IS SLAVERY<br>IGNORANCE IS STRENGTH",
+    "author": "1984"
+  },
+  {
+    "quote": "Proles and animals are free.",
+    "author": "1984"
+  },
+  {
+    "quote": "The best books are those that tell you what you know already.",
+    "author": "1984"
+  },
+  {
+    "quote": "From the proletarians nothing is to be feared. Left to themselves, they will continue from generation to generation and from century to century, working, breeding and dying.",
+    "author": "1984"
+  },
+  {
     "quote": "<b>Rick</b>: When you realise nothing matters, the universe is yours.",
     "author": "Rick and Morty"
   },
@@ -98,6 +114,10 @@ const quotes = [
   {
     "quote": "Sed fugit interea fugit irreparabile tempus",
     "author": "Publius Vergilius Maro"
+  },
+  {
+    "quote": "Una volta i libri venivano scritti da uomini di lettere e letti dal pubblico. Oggi i libri sono scritti dal pubblico e letti da nessuno.",
+    "author": "Oscar Wilde"
   }
 ];
 
