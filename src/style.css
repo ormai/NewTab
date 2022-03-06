@@ -1,15 +1,14 @@
 /*@import url('/home/mario/.local/colors/NewTab/active');*/
 
-/* Make impossible to select things */
 * {
-   user-select: none; /* supported by Chrome and Opera */
-   -webkit-user-select: none; /* Safari */
-   -khtml-user-select: none; /* Konqueror HTML */
-   -moz-user-select: none; /* Firefox */
-   -ms-user-select: none; /* Internet Explorer/Edge */
+  /* Make impossible to select things */
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
 
-:root {
-  /* Gruvbox dark */
+  /* Gruvbox-dark */
   --background:           #282828; /* bg */
   --bg-element:           #32302F; /* bg0_s */ 
   --bg-element-hover:     #504945; /* bg2 */
@@ -17,7 +16,7 @@
   --border-hover:         #B8BB26; /* bright-green */
   --bordinactive:         #FE8019; /* bright-orange */
   --text-hover:           #FB4934; /* bright-red */
-  
+
   --bordrad: 5px;
   --bordsize: 1px;
 }
