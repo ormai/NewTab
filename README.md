@@ -5,7 +5,7 @@
 # Setup
 
 ### Firefox 
-[This articlel](https://peterries.net/blog/firefox-set-file-as-home/) might still work.
+[This article](https://peterries.net/blog/firefox-set-file-as-home/) might still work.
 
 ### LibreWolf
 The procedure is similar to that of Firefox. [Here is an article](https://codetea.com/a-guide-to-make-librewolf-have-a-different-start-page-for-the-homepage-and-new-tabs/).
