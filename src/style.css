@@ -67,9 +67,9 @@ body {
 }
 
 .quote {
-  font-family: "Roboto Mono";
+  font-family: Inconsolata;
   color: var(--text);
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 #quote-text {
@@ -88,9 +88,9 @@ body {
 }
 
 .entry {
-  font-family: RobotoMono, monospace;
+  font-family: Inconsolata, monospace;
   margin: 0 15px;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .entry:hover {
