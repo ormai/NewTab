@@ -36,6 +36,14 @@ const quotes = [
     "author": "Rick and Morty"
   },
   {
+    "quote": "THE BIG BROTHER IS WATCHING YOU",
+    "author": "1984"
+  },
+  {
+    "quote": "We shall meet in the place where there is no darkness.",
+    "author": "1984"
+  },
+  {
     "quote": "<b>Rick</b>: Uncertainty is inherently unsustainable. Eventually, everything either is or isn't.",
     "author": "Rick and Morty S2E1"
   },
@@ -84,6 +92,10 @@ const quotes = [
     "author": "Ayn Rand"
   },
   {
+    "quote": "Si può dire che c'è una dolcezza straziante nei libri, qualcosa che si tocca con la mano e dà refrigerio anche se poi non si fa mai acchiappare del tutto.",
+    "author": "Dacia Maraini - \"La Scuola ci salverà\""
+  },
+  {
     "quote": "È più facile che un cammello passi per la cruna di un ago che un ricco entri nel Regno dei Cieli.",
     "author": "Matteo 19:24"
   },
@@ -97,7 +109,7 @@ const quotes = [
   },
   {
     "quote": "Cosa sarebbe peggio, vivere da mostro o morire da uomo per bene?",
-    "author": "Teddy Daniels (Shutter Island)"
+    "author": "Teddy Daniels - Shutter Island"
   },
   {
     "quote": "I miei giorni di scuola! Lo scorrere silenzioso della mia esistenza...",
@@ -121,8 +133,11 @@ const quotes = [
   }
 ];
 
-// Generate a random number based on the number of quotes available in the array
+// Generate a random number in within the range quotes available in the array
 const index = Math.floor(Math.random()*quotes.length);
 
-document.getElementById('quote-text').innerHTML = quotes[index].quote;
-document.getElementById('quote-author').innerHTML = quotes[index].author;
+document.getElementById('quote-text')
+  .innerHTML = quotes[index]['quote'];
+
+document.getElementById('quote-author')
+  .innerHTML = quotes[index]['author'];

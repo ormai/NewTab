@@ -19,6 +19,7 @@
 
   --bordrad: 5px;
   --bordsize: 1px;
+  --font: Inconsolata, monospace;
 }
 
 html {
@@ -67,7 +68,7 @@ body {
 }
 
 .quote {
-  font-family: Inconsolata;
+  font-family: var(--font);
   color: var(--text);
   font-size: 1.2rem;
 }
@@ -88,7 +89,7 @@ body {
 }
 
 .entry {
-  font-family: Inconsolata, monospace;
+  font-family: var(--font);
   margin: 0 15px;
   font-size: 1.2rem;
 }
@@ -156,7 +157,6 @@ li {
 a, a:visited {
   text-decoration: none;
   color: var(--text);
-  font-family: "Noto Sans";
   font-size: 14px;
 }
 
@@ -291,7 +291,11 @@ a, a:visited {
 }
 
 /* Make everything smaller when the screen shrinks */
-@media (max-width: 800px) , (max-height: 600px) {
+@media (max-width:https://www.tradingview.com/symbols/OANDA-EURGBP/?utm_campaign=single-quote&utm_medium=widget_new 800px) , (max-height: 600px) {
+  * {
+    font-size: 0.7rem; 
+  }
+
   #tiles {
 	  grid-template-columns: repeat(6, 90px); 
 	  grid-template-rows: repeat(5, 70px);
@@ -317,4 +321,9 @@ a, a:visited {
   a, a:visited {
     font-size: 12px;
   }
+
+  #market {
+    visibility: hidden;
+  }
 }
+
