@@ -1,5 +1,3 @@
-/*@import url('/home/mario/.local/colors/NewTab/active');*/
-
 * {
   /* Make impossible to select things */
   user-select: none; /* supported by Chrome and Opera */
@@ -11,31 +9,39 @@
   /* Gruvbox-dark */
   --background:           #282828; /* bg */
   --bg-element:           #32302F; /* bg0_s */ 
-  --bg-element-hover:     #504945; /* bg2 */
+  --bg-element-hover:     #3C3836; /* bg2 */
   --text:                 #EBDBB2; /* fg */
-  --border-hover:         #B8BB26; /* bright-green */
-  --bordinactive:         #FE8019; /* bright-orange */
   --text-hover:           #FB4934; /* bright-red */
 
-  --bordrad: 5px;
-  --bordsize: 1px;
+  --red:                  #FB4934;
+  --green:                #B8BB26;
+  --yellow:               #FABD2F;
+  --blue:                 #83A598;
+  --purple:               #D3869B;
+  --aqua:                 #8EC07C;
+  --orange:               #FE8019;
+  --gray:                 #665C54;
+
+  border-radius: 1px;
+  --bordsize: 2px;
   --font: Inconsolata, monospace;
+  --border-color: transparent;
 }
 
 html {
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
+ width: 100%;
+ height: 100%;
+ overflow: hidden;
 }
 
 body {
-	background-color: var(--background);
-	overflow: hidden;
+ background-color: var(--background);
+ overflow: hidden;
   width: 100%;
   height: 100%;
   margin: 0;
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -44,9 +50,9 @@ body {
   width: 50%;
   height: 70%;
   display: grid;
-	grid-template-columns: repeat(6, 120px); 
-	grid-template-rows: repeat(5, 100px);
-	gap: 12px; 
+  grid-template-columns: repeat(6, 120px); 
+  grid-template-rows: repeat(5, 100px);
+  gap: 12px; 
   justify-content: center;
   align-content: center;
 }
@@ -56,13 +62,10 @@ body {
   grid-column: 4 / 7;
   grid-row: 1 / 3;
   background: var(--bg-element);
-	border-radius: var(--bordrad);
-	border-style: solid;
-	border-color: var(--bordinactive);
-	border-width: var(--bordsize);
+  box-shadow: 0 0 0 var(--bordsize) var(--aqua);
   display: flex;
   flex-direction: column;
-	justify-content: center;
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
@@ -86,6 +89,7 @@ body {
 #news {
   grid-column: 2 / 3;
   grid-row: 4 / 6;
+  box-shadow: 0 0 0 var(--bordsize) var(--orange);
 }
 
 .entry {
@@ -102,8 +106,8 @@ body {
 #reading {
   grid-column: 3 / 5;
   grid-row: 5 / 6;
+  box-shadow: 0 0 0 var(--bordsize) var(--red);
 }
-  
 
 /* Style list elements */
 ul {
@@ -126,32 +130,28 @@ li {
   grid-row: 2 / 4;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 0 0 var(--bordsize) var(--blue);
 }
 
 
 /* Style normal bookmark */
 .bookmark {
-	display: flex;
-	justify-content: center;
-	width: 100%;
-	height: 100%;
-	transition: transform 0.2s;
-	background: var(--bg-element);
-	border-radius: var(--bordrad);
-	border-style: solid;
-	border-color: var(--bordinactive);
-	border-width: var(--bordsize);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.2s;
+  background: var(--bg-element);
 }
 
 .bookmark:hover {
-	transform: scale(1.06);
-	background: var(--bg-element-hover);
-	border-color: var(--border-hover);
+  transform: scale(1.06);
+  background: var(--bg-element-hover);
 }
 
 .tile-image {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 a, a:visited {
@@ -186,108 +186,112 @@ a, a:visited {
 
 /* Style the google mini-bookmark */
 .mini-bookmark {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
   align-items: center;
-	width: 100%;
-	height: 100%;
-	transition: transform 0.2s;
-	background: var(--bg-element);
-	border-radius: var(--bordrad);
-	border-style: solid;
-	border-color: var(--bordinactive);
-	border-width: var(--bordsize);
+  width: 100%;
+  height: 100%;
+  transition: transform 0.2s;
+  background: var(--bg-element);
+  box-shadow: 0 0 0 var(--bordsize) var(--gray);
 }
 
 .mini-bookmark:hover {
-	transform: scale(1.18);
-	background: var(--bg-element-hover);
-	border-color: var(--border-hover);
+  transform: scale(1.18);
+  background: var(--bg-element-hover);
 }
 
 /* Style the 4x4 tile */
 .bigtile {
   background: var(--bg-element);
-	border-radius: var(--bordrad);
-	border-style: solid;
-	border-color: var(--bordinactive);
-	border-width: var(--bordsize);
   display: flex;
-	justify-content: center;
+  justify-content: center;
   align-items: center;
   transition: transform 0.2s;
 }
 
 .bigtile:hover {
-	transform: scale(1.06);
-	background: var(--bg-element-hover);
-	border-color: var(--border-hover);
+  transform: scale(1.07);
+  background: var(--bg-element-hover);
 }
 
 /* Set the position of every single bookmark */
 #devdocs {
   grid-column: 5 / 6;
   grid-row: 4 / 5;
+  box-shadow: 0 0 0 var(--bordsize) var(--green);
 }
 
 #monkeytype {
-	grid-column: 2 / 3;
-	grid-row: 1 / 2;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  box-shadow: 0 0 0 var(--bordsize) var(--yellow);
 }
 
 #reddit {
-	grid-column: 3 / 4;
-	grid-row: 1 / 2;
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  box-shadow: 0 0 0 var(--bordsize) var(--orange);
 }
 
 #twitch {
   grid-column: 3 / 4;
   grid-row: 4 / 5;
+  box-shadow: 0 0 0 var(--bordsize) var(--purple);
 }
 
 #arch {
   grid-column: 6 / 7;
   grid-row: 3 / 4;
+  box-shadow: 0 0 0 var(--bordsize) var(--blue);
 }
 
 #freecodecamp {
   grid-column: 3 / 4;
   grid-row: 2 / 3;
+  box-shadow: 0 0 0 var(--bordsize) var(--green);
 }
 
 #codepen {
   grid-column: 3 / 4;
   grid-row: 3 / 4;
+  box-shadow: 0 0 0 var(--bordsize) var(--red);
 }
 
 #github {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
+  box-shadow: 0 0 0 var(--bordsize) var(--purple);
 }
 
 #amazon {
   grid-column: 1 / 2;
   grid-row: 4 / 5;
+  box-shadow: 0 0 0 var(--bordsize) var(--yellow);
 }
 
-#imbd {
+#imdb {
   grid-column: 1 / 2;
   grid-row: 5 / 6;
+  box-shadow: 0 0 0 var(--bordsize) var(--aqua);
 }
 
 #lichess-org {
   grid-column: 6 / 7;
   grid-row: 5 / 6;
+  box-shadow: 0 0 0 var(--bordsize) var(--yellow);
 }
 
 #gitlab {
   grid-column: 6 / 7;
   grid-row: 4 / 5;
+  box-shadow: 0 0 0 var(--bordsize) var(--purple);
 }
 
 #syncthing {
   grid-column: 5 / 6;
   grid-row: 5 / 6;
+  box-shadow: 0 0 0 var(--bordsize) var(--blue);
 }
 
 /* Make everything smaller when the screen shrinks */
@@ -297,9 +301,9 @@ a, a:visited {
   }
 
   #tiles {
-	  grid-template-columns: repeat(6, 90px); 
-	  grid-template-rows: repeat(5, 70px);
-	  gap: 8px; 
+    grid-template-columns: repeat(6, 90px); 
+    grid-template-rows: repeat(5, 70px);
+    gap: 8px; 
   }
 
   .google-tile {

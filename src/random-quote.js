@@ -128,6 +128,10 @@ const quotes = [
     "author": "Publius Vergilius Maro"
   },
   {
+    "quote": "Meglio dormire con un cannibale sobrio che con un cristiano ubriaco.",
+    "author": "Ismaele, Moby Dick"
+  },
+  {
     "quote": "Una volta i libri venivano scritti da uomini di lettere e letti dal pubblico. Oggi i libri sono scritti dal pubblico e letti da nessuno.",
     "author": "Oscar Wilde"
   }
