@@ -32,6 +32,18 @@ const quotes = [
     "author": "1984"
   },
   {
+    "quote": "L'esperienza non ha alcun valore etico, è solo il nome che gli uomini danno i propri errori.",
+    "author": "Il ritratto di Dorian Gray, Capitolo quarto"
+  },
+  {
+    "quote": "I libri che si definiscono immorali sono quelli che rivelano al mondo la sua vergogna.",
+    "author": "Il ritratto di Dorian Gray, Capitolo diciannovesimo"
+  },
+  {
+    "quote": "La più nobile come la più bassa forma di critica sono una sorta di autobiografia.",
+    "author": "Oscar Wilde"
+  },
+  {
     "quote": "<b>Rick</b>: When you realise nothing matters, the universe is yours.",
     "author": "Rick and Morty"
   },

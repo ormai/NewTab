@@ -1,3 +1,5 @@
+@import "light.css";
+
 * {
   /* Make impossible to select things */
   user-select: none; /* supported by Chrome and Opera */
@@ -5,22 +7,6 @@
   -khtml-user-select: none; /* Konqueror HTML */
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
-
-  /* Gruvbox-dark */
-  --background:           #282828; /* bg */
-  --bg-element:           #32302F; /* bg0_s */ 
-  --bg-element-hover:     #3C3836; /* bg2 */
-  --text:                 #EBDBB2; /* fg */
-  --text-hover:           #FB4934; /* bright-red */
-
-  --red:                  #FB4934;
-  --green:                #B8BB26;
-  --yellow:               #FABD2F;
-  --blue:                 #83A598;
-  --purple:               #D3869B;
-  --aqua:                 #8EC07C;
-  --orange:               #FE8019;
-  --gray:                 #665C54;
 
   border-radius: 1px;
   --bordsize: 2px;
@@ -73,16 +59,17 @@ body {
 .quote {
   font-family: var(--font);
   color: var(--text);
-  font-size: 1.2rem;
 }
 
 #quote-text {
   margin: 20px 20px; 
+  font-size: 1.2rem;
 }
 
 #quote-author {
   text-align: end;
   margin-right: 20px;
+  font-size: 1rem;
 }
 
 /* News tile */
