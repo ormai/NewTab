@@ -4,8 +4,20 @@ const quotes = [
     "author": "Rick and Morty"
   },
   {
+    "quote": "It is only the attempt to write down your ideas that enables them to develop.",
+    "author": "Wittgenstein"
+  },
+  {
+    "quote": "What has been done, thought, written, or spoken is not culture; culture is only that fraction which is remembered.",
+    "author": "Gary Taylor"
+  },
+  {
     "quote": "<b>Rick</b>: Love is an expression of familiarity over time.",
     "author": "Rick and Morty"
+  },
+  {
+    "quote": "Numbing the pain for a while will make it worse when you finally feel it.",
+    "author": "Harry Potter"
   },
   {
     "quote": "<b>Morty</b>: Everything hurts!<br><b>Rick</b>: That's because you're worthless!",

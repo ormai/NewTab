@@ -1,0 +1,16 @@
+* {
+  --background:           #282828; /* bg */
+  --bg-element:           #32302F; /* bg0_s */ 
+  --bg-element-hover:     #3C3836; /* bg2 */
+  --text:                 #EBDBB2; /* fg */
+  --text-hover:           var(--red); /* bright-red */
+
+  --red:                  #FB4934;
+  --green:                #B8BB26;
+  --yellow:               #FABD2F;
+  --blue:                 #83A598;
+  --purple:               #D3869B;
+  --aqua:                 #8EC07C;
+  --orange:               #FE8019;
+  --gray:                 #665C54;
+}
