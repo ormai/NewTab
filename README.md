@@ -1,4 +1,4 @@
-![](screenshots/NewTab-v1.1.png)
+![](screenshots/NewTab-v1.2.png)
 
 [zombieFox](https://github.com/zombieFox)'s [nightTab](https://github.com/zombieFox/nightTab) browser extension inspired me to make my very own NewTab page.
 
