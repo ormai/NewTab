@@ -12,6 +12,6 @@ Here are some guides:
 
 ### Chromium
 
-1. Go to chrome://extensions/
+1. Go to [chrome://extensions/](chrome://extensions/)
 2. Turn on 'Developer mode' in the top left corner
 3. Finally click 'Load unpacked' and select the whole extension's directory.

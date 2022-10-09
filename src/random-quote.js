@@ -148,6 +148,14 @@ const quotes = [
     "author": "The Shawshank Redemption"
   },
   {
+    "quote": "So it goes.",
+    "author": "Kurt Vonnegut, Slaughterhouse-Five"
+  },
+  {
+    "quote": "<b>Billy</b>: Why me?<br><b>Trafalmadorian</b>: Why you? Why us for that matter? Why anything? Because this moment simply is.",
+    "author": "Kurt Vonnegut, Slaughterhouse-Five"
+  },
+  {
     "quote": "Sed fugit interea fugit irreparabile tempus",
     "author": "Publius Vergilius Maro"
   },
