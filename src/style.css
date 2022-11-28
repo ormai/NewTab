@@ -236,7 +236,7 @@ a, a:visited {
   box-shadow: 0 0 0 var(--bordsize) var(--orange);
 }
 
-#twitch {
+#discord {
   grid-column: 3 / 4;
   grid-row: 4 / 5;
   box-shadow: 0 0 0 var(--bordsize) var(--purple);
@@ -254,7 +254,7 @@ a, a:visited {
   box-shadow: 0 0 0 var(--bordsize) var(--green);
 }
 
-#codepen {
+#spotify {
   grid-column: 3 / 4;
   grid-row: 3 / 4;
   box-shadow: 0 0 0 var(--bordsize) var(--red);
