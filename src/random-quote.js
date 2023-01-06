@@ -80,10 +80,6 @@ const quotes = [
     "author": "Rick and Morty S1E6"
   },
   {
-    "quote": "You know the difference between us, Tom? Anyone could have been you, whereas I've always been anyone.",
-    "author": "Agent Smith"
-  },
-  {
     "quote": "Life is pain, highness. Anyone who says differently is selling something.",
     "author": "William Goldman"
   },

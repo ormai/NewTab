@@ -1,9 +1,9 @@
 * {
-  --bg:           #282828; /* bg */
-  --bg-element:           #32302F; /* bg0_s */ 
+  --bg:                   #282828; /* bg */
+  --bg-element:           #32302F; /* bg0_s */
   --bg-element-hover:     #3C3836; /* bg2 */
   --text:                 #EBDBB2; /* fg */
-  --text-hover:           var(--red);
+  --text-hover:        var(--red);
 
   --red:                  #FB4934;
   --green:                #B8BB26;
@@ -297,7 +297,7 @@ a, a:visited {
 }
 
 /* Make everything smaller when the screen shrinks */
-@media (max-width:https://www.tradingview.com/symbols/OANDA-EURGBP/?utm_campaign=single-quote&utm_medium=widget_new 800px) , (max-height: 600px) {
+@media (max-width: 800px) , (max-height: 600px) {
   * {
     font-size: 0.7rem; 
   }
@@ -332,4 +332,3 @@ a, a:visited {
     visibility: hidden;
   }
 }
-
