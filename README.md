@@ -1,6 +1,6 @@
 ![](screenshots/NewTab-v1.3.png)
 
-[zombieFox](https://github.com/zombieFox)'s [nightTab](https://github.com/zombieFox/nightTab) browser extension inspired me to make my very own NewTab page.
+[zombieFox](https://github.com/zombieFox)'s [nightTab](https://github.com/zombieFox/nightTab) browser extension inspired me to make my own NewTab page.
 
 Most icons are from [flaticon.com](https://www.flaticon.com/).
 
