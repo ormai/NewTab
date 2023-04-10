@@ -1,10 +1,12 @@
+# NewTab
+
 ![](screenshots/NewTab-v1.3.png)
 
-[zombieFox](https://github.com/zombieFox)'s [nightTab](https://github.com/zombieFox/nightTab) browser extension inspired me to make my own NewTab page.
+[zombieFox](https://github.com/zombieFox)'s [nightTab](https://github.com/zombieFox/nightTab) extension inspired me to make my own startpage.
 
 Most icons are from [flaticon.com](https://www.flaticon.com/).
 
-# Setup
+## Setup
 
 Here are some guides:
 - [Firefox](https://peterries.net/blog/firefox-set-file-as-home/);
