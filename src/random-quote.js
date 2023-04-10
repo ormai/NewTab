@@ -1,5 +1,57 @@
 const quotes = [
   {
+    "quote": "“You yawned,” said the Vicar. “Do you never yawn in the angelic country?”<br>“Never,” said the Angel.<br>“And yet you are immortal!”",
+    "author": "H.G. Wells, The Wonderful Visit"
+  },
+  {
+    "quote": "And I have by me, for my comfort, two strange white flowers - shriveled now, and brown and flat and brittle - to witness that even when mind and strength had gone, gratitude and a mutual tenderness still lived on in the heart of men.",
+    "author": "H.G Wells, The Time Machine"
+  },
+  {
+    "quote": "Why afraid? The secret, shameful things are most terribly beautiful.",
+    "author": "D.H. Lawrence, The Rainbow"
+  },
+  {
+    "quote": "A cat could lie perfectly peacefully on the hearthrug whilst its master or mistress writhed in agony a yard away.",
+    "author": "D.H. Lawrence, The Rainbow"
+  },
+  {
+    "quote": "Ultimately, saying that you don’t care about privacy because you have nothing to hide is no different from saying you don’t care about freedom of speech because you have nothing to say.",
+    "author": "Edward Snowden, Permanent Record"
+  },
+  {
+    "quote": "Nothing inspires arrogance like a lifetime spent controlling machines that are incapable of criticism.",
+    "author": "Edward Snowden, Permanent Record"
+  },
+  {
+    "quote": "Niente è la morte in confronto alla vergogna.",
+    "author": "Leonardo Sciascia, Il giorno della civetta"
+  },
+  {
+    "quote": "Ciò che la plebe imparò un tempo a credere senza ragioni, chi potrebbe rovesciarglielo – con delle ragioni?",
+    "author": "Nietzsche, Così parlò Zarathustra"
+  },
+  {
+    "quote": "Dormire non è un'arte da poco: per farlo, bisogna prima essere stati desti tutto il giorno.",
+    "author": "Nietzsche, Così parlò Zarathustra"
+  },
+  {
+    "quote": "Il mozzicone di candela già da un pezzo si stava spegnendo nel candeliere storto, e illuminava con la sua luce fioca, in quella misera stanza, l'assassino e la peccatrice, stranamente riuniti nella lettura del libro eterno.",
+    "author": "Fedor Dostojevskij, Delitto e Castigo"
+  },
+  {
+    "quote": "Così, avendo profondissima la convinzione della propria genialità, e sentendosi ammirato e amato, egli conservava con tutta naturalezza il suo contegno di persona superiore.",
+    "author": "Italo Svevo, Senilità"
+  },
+  {
+    "quote": "L'inventiva, bisogna ammetterlo con umiltà, non consiste nel creare dal vuoto, bensì dal caos.",
+    "author": "Mary Shelley, Frankestein"
+  },
+  {
+    "quote": "Tutti i miei istinti fatti tacere, i miei sospetti vaghi, presero a un tratto forma e si concentrarono sul naturalista. In quell'uomo impassibile, in incolore, con quel suo cappello di paglia e la sua rete acchiappafarfalle, mi parve di vedere un essere spaventoso... una creatura dotata di astuzia e pazienza infinite, con il volto sorridente e il cuore omicida.",
+    "author": "Conan Doyle, Il mastino dei Baskerville"
+  },
+  {
     "quote": "<b>Rick</b>: Wubba Lubba Dub Dub!",
     "author": "Rick and Morty"
   },
@@ -16,10 +68,6 @@ const quotes = [
     "author": "Rick and Morty"
   },
   {
-    "quote": "Numbing the pain for a while will make it worse when you finally feel it.",
-    "author": "Harry Potter"
-  },
-  {
     "quote": "<b>Morty</b>: Everything hurts!<br><b>Rick</b>: That's because you're worthless!",
     "author": "Rick and Morty"
   },
@@ -29,19 +77,15 @@ const quotes = [
   },
   {
     "quote": "WAR IS PEACE<br>FREEDOM IS SLAVERY<br>IGNORANCE IS STRENGTH",
-    "author": "1984"
-  },
-  {
-    "quote": "Proles and animals are free.",
-    "author": "1984"
+    "author": "George Orwell, 1984"
   },
   {
     "quote": "The best books are those that tell you what you know already.",
-    "author": "1984"
+    "author": "George Orwell 1984"
   },
   {
     "quote": "From the proletarians nothing is to be feared. Left to themselves, they will continue from generation to generation and from century to century, working, breeding and dying.",
-    "author": "1984"
+    "author": "George Orwell 1984"
   },
   {
     "quote": "L'esperienza non ha alcun valore etico, è solo il nome che gli uomini danno i propri errori.",
@@ -68,32 +112,8 @@ const quotes = [
     "author": "1984"
   },
   {
-    "quote": "<b>Rick</b>: Uncertainty is inherently unsustainable. Eventually, everything either is or isn't.",
-    "author": "Rick and Morty S2E1"
-  },
-  {
     "quote": "<b>Rick</b>: Weddings are basically just funerals with cake.",
     "author": "Rick and Morty S2E10"
-  },
-  {
-    "quote": "<b>Rick</b>: Listen Morty, I hate to break it to you, but what people calls \"love\" is just a chemical reaction that compels animals to breed.",
-    "author": "Rick and Morty S1E6"
-  },
-  {
-    "quote": "Life is pain, highness. Anyone who says differently is selling something.",
-    "author": "William Goldman"
-  },
-  {
-    "quote": "L'informatica non riguarda i computer più di quanto l'astronomia riguardi i telescopi.",
-    "author": "Edsger Wybe Dijkstra"
-  },
-  {
-    "quote": "La disumanità del computer sta nel fatto che, una volta programmato e messo in funzione, si comporta in maniera perfettamente onesta.",
-    "author": "Isaac Asimov"
-  },
-  {
-    "quote": "Mai fidarsi di un computer che non è possibile gettare dalla finestra.",
-    "author": "Steve Wozniak"
   },
   {
     "quote": "Il computer non è una macchina intelligente che aiuta le persona stupide, anzi è una macchina stupida che funziona sono nelle mani delle persone intelligenti.",
@@ -104,32 +124,12 @@ const quotes = [
     "author": "Abram Lincoln"
   },
   {
-    "quote": "Oderint dum metuant",
-    "author": "Caligola"
-  },
-  {
-    "quote": "La ragione non è per tutti, quelli che la negano non possono essere conquistati.",
-    "author": "Ayn Rand"
-  },
-  {
     "quote": "Si può dire che c'è una dolcezza straziante nei libri, qualcosa che si tocca con la mano e dà refrigerio anche se poi non si fa mai acchiappare del tutto.",
     "author": "Dacia Maraini - \"La Scuola ci salverà\""
   },
   {
-    "quote": "È più facile che un cammello passi per la cruna di un ago che un ricco entri nel Regno dei Cieli.",
-    "author": "Matteo 19:24"
-  },
-  {
-    "quote": "Numquam felix eris, dum te torquebit felicior.",
-    "author": "Séneca"
-  },
-  {
     "quote": "Non è la religione ad aver creato l'uomo, ma l'uomo ad aver creato la religione.",
     "author": "Mr. Robot"
-  },
-  {
-    "quote": "Cosa sarebbe peggio, vivere da mostro o morire da uomo per bene?",
-    "author": "Teddy Daniels - Shutter Island"
   },
   {
     "quote": "I miei giorni di scuola! Lo scorrere silenzioso della mia esistenza...",
@@ -167,9 +167,5 @@ const quotes = [
 
 // Generate a random number in within the range quotes available in the array
 const index = Math.floor(Math.random()*quotes.length);
-
-document.getElementById('quote-text')
-  .innerHTML = quotes[index]['quote'];
-
-document.getElementById('quote-author')
-  .innerHTML = quotes[index]['author'];
+document.getElementById('quote-text').innerHTML = quotes[index]['quote'];
+document.getElementById('quote-author').innerHTML = quotes[index]['author'];
