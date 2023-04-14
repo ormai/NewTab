@@ -25,7 +25,7 @@
 
   border-radius: 1px;
   --bordsize: 2px;
-  --font: Inconsolata, monospace;
+  --font: "Inconsolata Nerd Font", monospace;
   --border-color: transparent;
 }
 
