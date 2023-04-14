@@ -48,10 +48,6 @@ const quotes = [
         "author": "Mary Shelley, Frankestein"
     },
     {
-        "quote": "Tutti i miei istinti fatti tacere, i miei sospetti vaghi, presero a un tratto forma e si concentrarono sul naturalista. In quell'uomo impassibile, in incolore, con quel suo cappello di paglia e la sua rete acchiappafarfalle, mi parve di vedere un essere spaventoso... una creatura dotata di astuzia e pazienza infinite, con il volto sorridente e il cuore omicida.",
-        "author": "Conan Doyle, Il mastino dei Baskerville"
-    },
-    {
         "quote": "<b>Rick</b>: Wubba Lubba Dub Dub!",
         "author": "Rick and Morty"
     },
