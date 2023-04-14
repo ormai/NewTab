@@ -22,8 +22,8 @@
     -ms-user-select: none; /* Internet Explorer/Edge */
 
     border-radius: 3px;
+    font-family: "Crimson Pro", serif;
     --bordsize: 2px;
-    --font: "Inconsolata";
     --border-color: transparent;
 }
 
@@ -55,6 +55,7 @@ body {
     align-content: center;
 }
 
+/* Quote tile */
 #quote-container {
     grid-column: 4 / 7;
     grid-row: 1 / 4;
@@ -66,24 +67,19 @@ body {
     align-items: center;
     text-align: center;
 }
-
 .quote-text {
-    font-family: var(--font);
     color: var(--text);
 }
-
 #quote {
     margin: 20px 20px; 
     font-size: 1.2rem;
 }
-
 #quote-author {
     text-align: end;
     margin-right: 20px;
     font-size: 1rem;
 }
 
-/* News tile */
 #news {
     grid-column: 2 / 3;
     grid-row: 4 / 6;
@@ -91,23 +87,21 @@ body {
 }
 
 .entry {
-    font-family: var(--font);
     margin: 0 15px;
-    font-size: 1.2rem;
+    font-size: 1.3em; /* Inconsolata is small */
+    font-family: "Inconsolata Nerd Font", monospace;
 }
 
 .entry:hover {
     color: var(--red);
 }
 
-/* Reading tile */
 #long {
     grid-column: 3 / 5;
     grid-row: 5 / 6;
     box-shadow: 0 0 0 var(--bordsize) var(--red);
 }
 
-/* Style list elements */
 ul {
     list-style-type: none;
     padding-inline-start: 0;
@@ -116,13 +110,10 @@ ul {
     margin-inline-start: 0;
     margin-inline-end: 0;
 }
-
 li {
     text-align: center;
     padding: 5px 0px 5px 0px;
 }
-
-
 
 /* Style normal bookmark */
 .tile {
@@ -134,7 +125,6 @@ li {
     transition: transform 0.2s;
     background: var(--bg-element);
 }
-
 .tile:hover {
     transform: scale(1.06);
     background: var(--bg-element-hover);
@@ -146,22 +136,18 @@ a, a:visited {
     font-size: 14px;
 }
 
-/* Google normal-sized containers tile */
 #mini-group-first {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
 }
-
 #mini-group-second {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
-
 #mini-group-third {
     grid-column: 4 / 5;
     grid-row: 4 / 5;
 }
-
 .mini-tiles-group {
     display: grid;
     grid-template-columns: repeat(2, 54px);
@@ -179,7 +165,6 @@ a, a:visited {
     background: var(--bg-element);
     box-shadow: 0 0 0 var(--bordsize) var(--gray);
 }
-
 .mini-tile:hover {
     transform: scale(1.18);
     background: var(--bg-element-hover);
@@ -192,7 +177,6 @@ a, a:visited {
     align-items: center;
     transition: transform 0.2s;
 }
-
 .bigtile:hover {
     transform: scale(1.07);
     background: var(--bg-element-hover);
@@ -219,73 +203,61 @@ a, a:visited {
     grid-row: 4 / 5;
     box-shadow: 0 0 0 var(--bordsize) var(--green);
 }
-
 #monkeytype {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     box-shadow: 0 0 0 var(--bordsize) var(--yellow);
 }
-
 #reddit {
     grid-column: 3 / 4;
     grid-row: 1 / 2;
     box-shadow: 0 0 0 var(--bordsize) var(--orange);
 }
-
 #discord {
     grid-column: 3 / 4;
     grid-row: 4 / 5;
     box-shadow: 0 0 0 var(--bordsize) var(--purple);
 }
-
 #arch {
     grid-column: 1 / 2;
     grid-row: 5 / 6;
     box-shadow: 0 0 0 var(--bordsize) var(--blue);
 }
-
 #freecodecamp {
     grid-column: 3 / 4;
     grid-row: 2 / 3;
     box-shadow: 0 0 0 var(--bordsize) var(--green);
 }
-
 #spotify {
     grid-column: 3 / 4;
     grid-row: 3 / 4;
     box-shadow: 0 0 0 var(--bordsize) var(--red);
 }
-
 #github {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     box-shadow: 0 0 0 var(--bordsize) var(--purple);
 }
-
 #amazon {
     grid-column: 1 / 2;
     grid-row: 4 / 5;
     box-shadow: 0 0 0 var(--bordsize) var(--yellow);
 }
-
 #imdb {
     grid-column: 1 / 2;
     grid-row: 3 / 4;
     box-shadow: 0 0 0 var(--bordsize) var(--aqua);
 }
-
 #lichess-org {
     grid-column: 6 / 7;
     grid-row: 5 / 6;
     box-shadow: 0 0 0 var(--bordsize) var(--yellow);
 }
-
 #gitlab {
     grid-column: 6 / 7;
     grid-row: 4 / 5;
     box-shadow: 0 0 0 var(--bordsize) var(--purple);
 }
-
 #syncthing {
     grid-column: 5 / 6;
     grid-row: 5 / 6;
