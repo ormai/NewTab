@@ -167,5 +167,5 @@ const quotes = [
 
 // Generate a random number in within the range quotes available in the array
 const index = Math.floor(Math.random()*quotes.length);
-document.getElementById('quote-text').innerHTML = quotes[index]['quote'];
-document.getElementById('quote-author').innerHTML = quotes[index]['author'];
+document.getElementById("quote").innerHTML = quotes[index]["quote"];
+document.getElementById("quote-author").innerHTML = quotes[index]["author"];
