@@ -1,9 +1,9 @@
 {
-	"name": "NewTab",
-	"description": "Custom startup page",
-	"version": "1.4",
-	"manifest_version": 3,
-	"chrome_url_overrides": {
-  	"newtab": "index.html"
+    "name": "NewTab",
+    "description": "A lightweight startpage",
+    "version": "1.4",
+    "manifest_version": 3,
+    "chrome_url_overrides": {
+        "newtab": "index.html"
     }
 }
