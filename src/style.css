@@ -21,8 +21,7 @@
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* Internet Explorer/Edge */
 
-    border-radius: 3px;
-    font-family: "Crimson Pro", serif;
+    border-radius: 2px;
     --bordsize: 2px;
     --border-color: transparent;
 }
