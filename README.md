@@ -6,7 +6,7 @@
 
 NewTab is meant to be nothing more than a page with a bunch of links.
 
-Most icons are from [flaticon.com](https://www.flaticon.com/).
+Some icons are from [flaticon.com](https://www.flaticon.com/).
 
 ## Setup
 
