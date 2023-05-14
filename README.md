@@ -4,6 +4,8 @@
 
 [zombieFox](https://github.com/zombieFox)'s [nightTab](https://github.com/zombieFox/nightTab) extension inspired me to make my own startpage.
 
+NewTab is meant to be nothing more than a page with a bunch of links.
+
 Most icons are from [flaticon.com](https://www.flaticon.com/).
 
 ## Setup
