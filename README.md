@@ -1,12 +1,10 @@
 # NewTab
 
-![](screenshots/NewTab-v1.3.png)
+![](screenshots/NewTab-current.png)
 
 [zombieFox](https://github.com/zombieFox)'s [nightTab](https://github.com/zombieFox/nightTab) extension inspired me to make my own startpage.
 
 NewTab is meant to be nothing more than a page with a bunch of links.
-
-Some icons are from [flaticon.com](https://www.flaticon.com/).
 
 ## Setup
 
