@@ -20,6 +20,8 @@
     -khtml-user-select: none; /* Konqueror HTML */
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* Internet Explorer/Edge */
+    user-drag: none;
+    -webkit-user-drag: none;
 
     border-radius: 2px;
     --bordsize: 2px;
@@ -125,7 +127,6 @@ li {
     background: var(--bg-element);
 }
 .tile:hover {
-    transform: scale(1.06);
     background: var(--bg-element-hover);
 }
 
@@ -165,7 +166,6 @@ a, a:visited {
     box-shadow: 0 0 0 var(--bordsize) var(--gray);
 }
 .mini-tile:hover {
-    transform: scale(1.18);
     background: var(--bg-element-hover);
 }
 
@@ -177,7 +177,6 @@ a, a:visited {
     transition: transform 0.2s;
 }
 .bigtile:hover {
-    transform: scale(1.07);
     background: var(--bg-element-hover);
 }
 
@@ -268,3 +267,10 @@ a, a:visited {
         display: none; /* ReSpOnSiVe WeB DeSiGn  */
     }
 }
+
+.tile, .mini-tile, .list {
+    transition: scale .2s cubic-bezier(.5,1.5,.75,1.25); }
+.tile:hover, .mini-tile:hover, .list:hover {
+    scale: 1.06; }
+.tile:active, .mini-tile:active, .list:active {
+    scale: .96; }
