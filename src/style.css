@@ -23,7 +23,7 @@
     user-drag: none;
     -webkit-user-drag: none;
 
-    border-radius: 2px;
+    border-radius: 3px;
     --bordsize: 2px;
     --border-color: transparent;
 }
@@ -264,7 +264,7 @@ a, a:visited {
 
 @media (max-width: 800px), (max-height: 550px) {
     #layout {
-        scale: 0.8;
+        display: none;
     }
 }
 
