@@ -56,6 +56,10 @@ body {
     align-content: center;
 }
 
+#unical img {
+    border-radius: 0;
+}
+
 /* Quote tile */
 #quote-container {
     grid-column: 4 / 7;
@@ -196,7 +200,7 @@ a, a:visited {
     grid-row: 2 / 3;
     box-shadow: 0 0 0 var(--bordsize) var(--blue);
 }
-#devdocs {
+#unused {
     grid-column: 5 / 6;
     grid-row: 4 / 5;
     box-shadow: 0 0 0 var(--bordsize) var(--green);
