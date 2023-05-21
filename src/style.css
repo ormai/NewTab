@@ -264,7 +264,7 @@ a, a:visited {
 
 @media (max-width: 800px), (max-height: 550px) {
     #layout {
-        display: none; /* ReSpOnSiVe WeB DeSiGn  */
+        scale: 0.8;
     }
 }
 
