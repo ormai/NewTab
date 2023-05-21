@@ -7,42 +7,43 @@
         <title>NewTab</title>
         <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
         <script type="text/javascript" src="random-quote.js" defer></script>
+        <script type="text/javascript" src="website.js" defer></script>
     </head>
 
     <body>
         <div id="layout">
-            <div id="quote-container">
+            <div id="quote-wrapper">
                 <p id="quote" class="quote-text"></p>
                 <br>
                 <p class="quote-text">> <span id="quote-author"></span></p>
             </div>
 
-            <div id="to-be-continued" class="bigtile" >
-            </div>
+            <a id="empty" class="tile" href="">
+            </a>
 
-            <div class="mini-tiles-group" id="mini-group-first">
-                <a class="mini-tile" id="youtube" href="https://www.youtube.com/">
+            <div class="mini-tiles-group" id="gugol">
+                <a class="mini-tile" href="https://www.youtube.com/">
                     <img class="small-image" src="icons/youtube.svg">
                 </a>
-                <a class="mini-tile" id="gmail" href="https://mail.google.com/">
+                <a class="mini-tile" href="https://mail.google.com/">
                     <img class="small-image" src="icons/gmail.svg">
                 </a>
-                <a class="mini-tile" id="translate" href="https://translate.google.com/">
+                <a class="mini-tile" href="https://translate.google.com/">
                     <img class="small-image" src="icons/translate.svg">
                 </a>
-                <a class="mini-tile" id="maps" href="https://www.google.com/maps/">
+                <a class="mini-tile" href="https://www.google.com/maps/">
                     <img class="small-image" src="icons/maps.svg">
                 </a>
             </div>
 
-            <div class="mini-tiles-group" id="mini-group-second">
-                <a class="mini-tile" id="" href="">
-                    <img class="small-image" src="">
+            <div class="mini-tiles-group" id="misc">
+                <a class="mini-tile" href="https://web.whatsapp.com/">
+                    <img class="small-image" src="icons/whatsapp.svg">
                 </a>
-                <a class="mini-tile" id="meet" href="https://calendar.google.com/">
-                    <img class="small-image" src="icons/calendar.svg">
+                <a class="mini-tile" href="https://1337x.to/home/">
+                    <img class="small-image" src="icons/1337x.svg">
                 </a>
-                <a class="mini-tile" id="devdocs" href="https://devdocs.io/">
+                <a class="mini-tile" href="https://devdocs.io/">
                     <img class="small-image" src="icons/documentation.svg">
                 </a>
                 <a class="mini-tile" href="https://www.freecodecamp.org/learn/">
@@ -50,15 +51,15 @@
                 </a> 
             </div>
 
-            <div class="mini-tiles-group" id="mini-group-third">
-                <a class="mini-tile" id="drive" href="https://drive.google.com/">
+            <div class="mini-tiles-group" id="university">
+                <a class="mini-tile" href="https://drive.google.com/">
                     <img class="small-image" src="icons/drive.svg">
                 </a>
-                <a class="mini-tile" id="unical" href="">
+                <a class="mini-tile" id="unical" href="https://www.unical.it/?lang=it/">
                     <img class="small-image" src="icons/unical.svg">
                 </a>
-                <a class="mini-tile" id="" href="">
-                    <img class="small-image" src="">
+                <a class="mini-tile" href="https://calendar.google.com/calendar/u/0/r">
+                    <img class="small-image" src="icons/calendar.svg">
                 </a>
                 <a class="mini-tile" href="https://teams.microsoft.com">
                     <img class="small-image" src="icons/teams.svg">
@@ -77,17 +78,11 @@
             <a class="tile" id="github" href="https://github.com/">
                 <img class="image" src="icons/github.svg">
             </a>
-            <a class="tile" id="" href="">
-                <img class="image" src="">
-            </a>
             <a class="tile" id="spotify" href="https://open.spotify.com/">
                 <img class="image" src="icons/spotify.svg">
             </a>
             <a class="tile" id="arch" href="https://archlinux.org/">
                 <img class="image" src="icons/arch.svg">
-            </a>
-            <a class="tile" id="unused" href="">
-                <img class="image" src="">
             </a>
             <a class="tile" id="amazon" href="https://amazon.it/">
                 <img class="image" src="icons/amazon.svg">
@@ -105,25 +100,13 @@
                 <img class="image" src="icons/syncthing.svg">
             </a>
 
-            <div id="news" class="list bigtile">
-                <ul>
-                    <li><a class="entry" href=""></a></li>
-                    <li><a class="entry" href="https://unical.esse3.cineca.it/auth/Logon.do?menu_opened_cod=">esse3</a></li>
-                    <li><a class="entry" href="https://lib-5e5uxpnt3tgq7i2jb33plwkm.1lib.ph/login?remix_userkey=a568f1c2e0725179f993e97084909930">zlibrary</a></li>
-                    <li><a class="entry" href="https://www.goodreads.com/">good<b>reads</b></a></li>
-                    <li><a class="entry" href="https://informatica.unical.it/home-page">Dip.</a></li>
-                    <li><a class="entry" href="https://dumbo.alviano.net/attendance#do-login&temporary-access-token=076ac09f-203b-4bb5-9d23-85190ab3cadf">DumbO</a></li>
-                </ul>
-            </div>
-
-            <div id="long" class="list bigtile">
-                <ul>
-                    <li><a class="entry" href="https://www.treccani.it/vocabolario/">Treccani</a></li>
-                    <li><a class="entry" href="https://www.merriam-webster.com/">Merriam-Webster</a></li>
-                    <li><a class="entry" href="https://web.whatsapp.com/">Whatsapp</a></li>
-                </ul>
-            </div>
-
+            <ul id="list" class="bigtile">
+                <li><a class="entry" href="https://www.treccani.it/vocabolario/">Treccani</a></li>
+                <li><a class="entry" href="https://unical.esse3.cineca.it/auth/Logon.do?menu_opened_cod=">esse3</a></li>
+                <li><a class="entry" href="https://annas-archive.org/">Anna's Archive</a></li>
+                <li><a class="entry" href="https://www.goodreads.com/">good<b>reads</b></a></li>
+                <li><a class="entry" href="https://informatica.unical.it/home-page">Dip.</a></li>
+            </ul>
         </div>
     </body>
 </html>
