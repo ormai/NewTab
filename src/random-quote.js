@@ -112,7 +112,7 @@ const quotes = [
         "author": "Rick and Morty S2E10"
     },
     {
-        "quote": "Il computer non è una macchina intelligente che aiuta le persona stupide, anzi è una macchina stupida che funziona sono nelle mani delle persone intelligenti.",
+        "quote": "Il computer non è una macchina intelligente che aiuta le persona stupide, anzi è una macchina stupida che funziona solo nelle mani delle persone intelligenti.",
         "author": "Umberto Eco"
     },
     {
