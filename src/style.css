@@ -109,18 +109,6 @@ a, a:visited {
     font-size: 14px;
 }
 
-#gugol {
-    grid-column: 3 / 4;
-    grid-row: 5 / 6;
-}
-#misc {
-    grid-column: 4 / 5;
-    grid-row: 5 / 6;
-}
-#university {
-    grid-column: 4 / 5;
-    grid-row: 4 / 5;
-}
 #unical img {
     border-radius: 0;
 }
@@ -182,6 +170,21 @@ li {
     max-width: 75px
 }
 
+/* Define the position of the small tiles groups */
+#gugol {
+    grid-column: 3 / 4;
+    grid-row: 5 / 6;
+}
+#misc {
+    grid-column: 4 / 5;
+    grid-row: 5 / 6;
+}
+#university {
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+}
+
+/* Assign position and border color to each bookmark tile */
 #monkeytype {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
@@ -242,13 +245,20 @@ li {
     grid-row: 5 / 6;
     box-shadow: 0 0 0 var(--bordsize) var(--blue);
 }
+#mastodon {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    box-shadow: 0 0 0 var(--bordsize) var(--blue);
+}
 
 @media (max-width: 800px), (max-height: 550px) {
+    /* todo: make the page responsive to shrinking of the viewport */
     #layout {
         display: none;
     }
 }
 
+/* Hover and click animation */
 .tile, .mini-tile, #list {
     transition: scale .2s cubic-bezier(.5,1.5,.75,1.25); }
 .tile:hover, .mini-tile:hover, #list:hover {
