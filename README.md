@@ -1,6 +1,6 @@
 <h1 align="center">NewTab</h1>
 
-![](screenshots/NewTab-current.png)
+![](screenshots/current.png)
 
 [zombieFox](https://github.com/zombieFox)'s [nightTab](https://github.com/zombieFox/nightTab) extension inspired me to make my own startpage.
 
