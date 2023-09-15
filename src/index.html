@@ -1,116 +1,114 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <link rel="shortcut icon" type="image/x-icon" href="icons/home.svg" />
-        <title>NewTab</title>
-        <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-        <script type="text/javascript" src="random-quote.js" defer></script>
-        <script type="text/javascript" src="website.js" defer></script>
-    </head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" type="image/x-icon" href="icons/home.svg" />
+    <title>NewTab</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <script src="quote.js" type="text/javascript" defer></script>
+  </head>
 
-    <body>
-        <div id="layout">
-            <div id="quote-wrapper">
-                <p id="quote" class="quote-text"></p>
-                <br>
-                <p class="quote-text">> <span id="quote-author"></span></p>
-            </div>
+  <body>
+    <div id="layout">
+      <div id="quote">
+        <p id="text"></p>
+        <p id="author"></p>
+      </div>
 
-            <a id="empty" class="tile" href="">
-                This is a big, emtpy tile
-            </a>
+      <a id="empty" class="tile" href="">
+        This is a big, emtpy tile
+      </a>
 
-            <div class="mini-tiles-group" id="gugol">
-                <a class="mini-tile" href="https://www.youtube.com/">
-                    <img class="small-image" src="icons/youtube.svg">
-                </a>
-                <a class="mini-tile" href="https://mail.google.com/">
-                    <img class="small-image" src="icons/gmail.svg">
-                </a>
-                <a class="mini-tile" href="https://translate.google.com/">
-                    <img class="small-image" src="icons/translate.svg">
-                </a>
-                <a class="mini-tile" href="https://www.google.com/maps/">
-                    <img class="small-image" src="icons/maps.svg">
-                </a>
-            </div>
+      <div class="mini-tiles-group" id="gugol">
+        <a class="mini-tile" href="https://www.youtube.com/">
+          <img class="small-image" src="icons/youtube.svg">
+        </a>
+        <a class="mini-tile" href="https://mail.google.com/">
+          <img class="small-image" src="icons/gmail.svg">
+        </a>
+        <a class="mini-tile" href="https://translate.google.com/">
+          <img class="small-image" src="icons/translate.svg">
+        </a>
+        <a class="mini-tile" href="https://www.google.com/maps/">
+          <img class="small-image" src="icons/maps.svg">
+        </a>
+      </div>
 
-            <div class="mini-tiles-group" id="misc">
-                <a class="mini-tile" href="https://web.whatsapp.com/">
-                    <img class="small-image" src="icons/whatsapp.svg">
-                </a>
-                <a class="mini-tile" href="https://1337x.to/home/">
-                    <img class="small-image" src="icons/1337x.svg">
-                </a>
-                <a class="mini-tile" href="https://devdocs.io/">
-                    <img class="small-image" src="icons/documentation.svg">
-                </a>
-                <a class="mini-tile" href="https://www.freecodecamp.org/learn/">
-                    <img class="small-image" src="icons/freecodecamp.svg">
-                </a> 
-            </div>
+      <div class="mini-tiles-group" id="misc">
+        <a class="mini-tile" href="https://web.whatsapp.com/">
+          <img class="small-image" src="icons/whatsapp.svg">
+        </a>
+        <a class="mini-tile" href="https://1337x.to/home/">
+          <img class="small-image" src="icons/1337x.svg">
+        </a>
+        <a class="mini-tile" href="https://devdocs.io/">
+          <img class="small-image" src="icons/documentation.svg">
+        </a>
+        <a class="mini-tile" href="https://www.freecodecamp.org/learn/">
+          <img class="small-image" src="icons/freecodecamp.svg">
+        </a> 
+      </div>
 
-            <div class="mini-tiles-group" id="university">
-                <a class="mini-tile" href="https://drive.google.com/">
-                    <img class="small-image" src="icons/drive.svg">
-                </a>
-                <a class="mini-tile" id="unical" href="https://www.unical.it/?lang=it/">
-                    <img class="small-image" src="icons/unical.svg">
-                </a>
-                <a class="mini-tile" href="https://calendar.google.com/calendar/u/0/r">
-                    <img class="small-image" src="icons/calendar.svg">
-                </a>
-                <a class="mini-tile" href="https://teams.microsoft.com">
-                    <img class="small-image" src="icons/teams.svg">
-                </a>
-            </div>
+      <div class="mini-tiles-group" id="university">
+        <a class="mini-tile" href="https://app.cinny.in/">
+          <img class="small-image" src="icons/cinny.png">
+        </a>
+        <a class="mini-tile" id="unical" href="https://www.unical.it/?lang=it/">
+          <img class="small-image" src="icons/unical.svg">
+        </a>
+        <a class="mini-tile" href="https://calendar.google.com/calendar/u/0/r">
+          <img class="small-image" src="icons/calendar.svg">
+        </a>
+        <a class="mini-tile" href="https://teams.microsoft.com">
+          <img class="small-image" src="icons/teams.svg">
+        </a>
+      </div>
 
-            <a id="mastodon" class="tile" href="https://mastodon.uno/">
-                <img class="image" src="icons/mastodon.svg">
-            </a>
-            <a class="tile" id="reddit" href="https://www.reddit.com"/>
-                <img class="image" src="icons/reddit.svg">
-            </a>
-            <a class="tile" id="monkeytype" href="https://monkeytype.com/">
-                <img class="image" src="icons/monkeytype.svg">
-            </a>
-            <a class="tile" id="discord" href="https://discord.com/app">
-                <img class="image" src="icons/discord.svg">
-            </a>
-            <a class="tile" id="github" href="https://github.com/">
-                <img class="image" src="icons/github.svg">
-            </a>
-            <a class="tile" id="spotify" href="https://open.spotify.com/">
-                <img class="image" src="icons/spotify.svg">
-            </a>
-            <a class="tile" id="arch" href="https://archlinux.org/">
-                <img class="image" src="icons/arch.svg">
-            </a>
-            <a class="tile" id="amazon" href="https://amazon.it/">
-                <img class="image" src="icons/amazon.svg">
-            </a>
-            <a class="tile" id="imdb" href="https://www.imdb.com/">
-                <img class="image" src="icons/imdb.svg">
-            </a>
-            <a class="tile" id="lichess-org" href="https://lichess.org/">
-                <img class="image" src="icons/lichess.svg">
-            </a>
-            <a class="tile" id="gitlab" href="https://gitlab.com/">
-                <img class="image" src="icons/gitlab.svg">
-            </a>
-            <a class="tile" id="syncthing" href="http://127.0.0.1:8384/"/>
-                <img class="image" src="icons/syncthing.svg">
-            </a>
+      <a id="mastodon" class="tile" href="https://mastodon.uno/">
+        <img class="image" src="icons/mastodon.svg">
+      </a>
+      <a class="tile" id="reddit" href="https://www.reddit.com"/>
+        <img class="image" src="icons/reddit.svg">
+      </a>
+      <a class="tile" id="monkeytype" href="https://monkeytype.com/">
+        <img class="image" src="icons/monkeytype.svg">
+      </a>
+      <a class="tile" id="discord" href="https://discord.com/app">
+        <img class="image" src="icons/discord.svg">
+      </a>
+      <a class="tile" id="github" href="https://github.com/">
+        <img class="image" src="icons/github.svg">
+      </a>
+      <a class="tile" id="spotify" href="https://open.spotify.com/">
+        <img class="image" src="icons/spotify.svg">
+      </a>
+      <a class="tile" id="arch" href="https://archlinux.org/">
+        <img class="image" src="icons/arch.svg">
+      </a>
+      <a class="tile" id="amazon" href="https://amazon.it/">
+        <img class="image" src="icons/amazon.svg">
+      </a>
+      <a class="tile" id="imdb" href="https://www.imdb.com/">
+        <img class="image" src="icons/imdb.svg">
+      </a>
+      <a class="tile" id="lichess-org" href="https://lichess.org/">
+        <img class="image" src="icons/lichess.svg">
+      </a>
+      <a class="tile" id="gitlab" href="https://git.ormai.dev/">
+        <img class="image" src="icons/gitlab.svg">
+      </a>
+      <a class="tile" id="syncthing" href="http://127.0.0.1:8384/"/>
+        <img class="image" src="icons/syncthing.svg">
+      </a>
 
-            <ul id="list" class="bigtile">
-                <li><a class="entry" href="https://www.treccani.it/vocabolario/">Treccani</a></li>
-                <li><a class="entry" href="https://unical.esse3.cineca.it/auth/Logon.do?menu_opened_cod=">esse3</a></li>
-                <li><a class="entry" href="https://annas-archive.org/">Anna's Archive</a></li>
-                <li><a class="entry" href="https://www.goodreads.com/">good<b>reads</b></a></li>
-                <li><a class="entry" href="https://informatica.unical.it/home-page">Dip.</a></li>
-            </ul>
-        </div>
-    </body>
+      <ul id="list" class="bigtile">
+        <li><a class="entry" href="https://www.treccani.it/vocabolario/">Treccani</a></li>
+        <li><a class="entry" href="https://unical.esse3.cineca.it/auth/Logon.do?menu_opened_cod=">esse3</a></li>
+        <li><a class="entry" href="https://annas-archive.org/">Anna's Archive</a></li>
+        <li><a class="entry" href="#">-</a></li>
+        <li><a class="entry" href="https://informatica.unical.it/home-page">Dip.</a></li>
+      </ul>
+    </div>
+  </body>
 </html>
