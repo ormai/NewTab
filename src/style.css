@@ -92,7 +92,7 @@ body {
   background: var(--bg-element);
   box-shadow: 0 0 0 var(--bordsize) var(--tile-border);
 
-  transition: 0.2s ease;
+  transition: 0.2s ease-in-out;
   &:hover {
     box-shadow: 0 0 0 var(--bordsize) var(--tile-border-hover);
     background: var(--bg-element-hover);
@@ -184,10 +184,7 @@ li {
   }
 }
 
-.tile, #list {
-  transition: .3s cubic-bezier(.5,1.5,.75,1.25);
-}
-
 .tile:active, #list:active {
+  transition: scale .3s cubic-bezier(.5,1.5,.75,1.25);
   scale: .96;
 }
