@@ -1,4 +1,4 @@
-An html page with a quote in the middle. Every time the page opens or is reloaded the quote changes. That's it.
+A page with a quote in the middle. Every time the page opens or is reloaded the quote changes. That's it.
 
 ![](images/current.png)
 
