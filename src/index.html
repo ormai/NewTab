@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html style="height: 100%; width: 100%;">
+<!-- Single file because I'm evil -->
 
 <head>
   <meta charset="utf-8">
@@ -20,7 +21,6 @@
     }
 
     :root {
-      color: var(--text);
       font-family: sans-serif;
     }
   </style>
@@ -409,7 +409,7 @@
 
 <body
   style="background: var(--bg); width: 60%; height: 100vh; margin: auto; display: flex; flex-direction: column; justify-content: center; align-items: center;">
-  <blockquote id="text" style="font-size: 16pt;"></blockquote>
+  <blockquote id="text" style="font-size: 16pt; color: var(--text);"></blockquote>
   <cite style="color: var(--source);" id="source"></cite>
 </body>
 
