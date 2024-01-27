@@ -4,19 +4,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <link rel="shortcut icon" type="image/x-icon" href="./home.svg" />
+  <link rel="shortcut icon" type="image/x-icon" href="home.svg" />
   <title>New tab</title>
   <style>
-    [data-theme="dark"] {
-      --bg: #282828;
-      --text: #ebdbb2;
-      --source: #d5c4a1;
+    @media (prefers-color-colorscheme: dark) {
+      :root {
+        --bg: #242424;
+        --text: #ebdbb2;
+        --source: #d5c4a1;
+      }
     }
 
-    [data-theme="light"] {
-      --bg: #fbf1c7;
-      --text: #3c3836;
-      --source: #504945;
+    @media (prefers-color-colorscheme: light) {
+      :root {
+        --bg: #fafafa;
+        --text: #3c3836;
+        --source: #504945;
+      }
     }
 
     :root {
@@ -24,11 +28,10 @@
     }
   </style>
   <script src="quotes.js" defer></script>
-  <script src="theme.js"></script>
 </head>
 
 <body
-  style="background: var(--bg); width: 60%; height: 100vh; margin: auto; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+  style="background: var(--bg); width: 65vw; height: 100vh; margin: auto; display: flex; flex-direction: column; justify-content: center; align-items: center;">
   <blockquote id="text" style="font-size: 16pt; color: var(--text);"></blockquote>
   <cite style="color: var(--source);" id="source"></cite>
 </body>
