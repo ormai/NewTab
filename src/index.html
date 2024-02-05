@@ -7,31 +7,47 @@
   <link rel="shortcut icon" type="image/x-icon" href="home.svg" />
   <title>New tab</title>
   <style>
-    @media (prefers-color-colorscheme: dark) {
+    @media (prefers-color-scheme: dark) {
       :root {
         --bg: #242424;
-        --text: #ebdbb2;
-        --source: #d5c4a1;
+        --text: #fafafa;
+        --source: #ebb;
       }
     }
 
-    @media (prefers-color-colorscheme: light) {
+    @media (prefers-color-scheme: light) {
       :root {
         --bg: #fafafa;
-        --text: #3c3836;
-        --source: #504945;
+        --text: #1e1e1e;
+        --source: #1f3140;
       }
     }
 
-    :root {
-      font-family: sans-serif;
+    @media (max-width: 700px) {
+      body {
+        width: 90% !important;
+      }
+    }
+
+    @media (max-width: 1000px) {
+      body {
+        width: 70% !important;
+      }
     }
   </style>
   <script src="quotes.js" defer></script>
 </head>
 
-<body
-  style="background: var(--bg); width: 65vw; height: 100vh; margin: auto; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+<body style="
+    font-family: serif;
+    background: var(--bg);
+    width: 40%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;">
   <blockquote id="text" style="font-size: 16pt; color: var(--text);"></blockquote>
   <cite style="color: var(--source);" id="source"></cite>
 </body>

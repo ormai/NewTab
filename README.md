@@ -1,6 +1,6 @@
 A page with a quote in the middle. Every time the page opens or is reloaded the quote changes. That's it.
 
-![](images/current.png)
+![](screenshot.png)
 
 Setup
 
@@ -54,5 +54,5 @@ Then restart Firefox.
 
 1. Go to `chrome://extensions`
 2. Turn on "Developer mode" in the-top left corner
-3. Finally click "Load unpacked" and select the root of the extension directory (in this case `src`).
+3. Finally click "Load unpacked" and select the extension directory.
 </details>
